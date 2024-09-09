@@ -1,0 +1,30 @@
+#---------------------------------------------------
+# Number of Materials
+#---------------------------------------------------
+material:num-materials=2
+#---------------------------------------------------
+# Material 1 Ferromagnetic Layer
+#---------------------------------------------------
+material[1]:material-name=CGT
+material[1]:damping-constant=1.0
+material[1]:exchange-matrix[1]=4.42e-22
+material[1]:exchange-matrix[2]=4.42e-22
+material[1]:atomic-spin-moment=3.87 !muB
+material[1]:uniaxial-anisotropy-constant=5.29e-24
+material[1]:material-element=Ag
+material[1]:minimum-height=0.0
+material[1]:maximum-height=0.2
+material[1]:initial-spin-direction=0,0,-1
+#---------------------------------------------------
+# Material 2 Anti-ferromagnetic Layer
+#---------------------------------------------------
+material[2]:material-name=CeF3
+material[2]:damping-constant=1.0
+material[2]:exchange-matrix[1]=4.42e-22
+material[2]:exchange-matrix[2]=1.47e-24
+material[2]:atomic-spin-moment=2.6 !muB
+material[2]:uniaxial-anisotropy-constant=0
+material[2]:material-element=Fe
+material[2]:minimum-height=0.5
+material[2]:maximum-height=1.0
+material[2]:initial-spin-direction=0,0,1

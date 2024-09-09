@@ -1,0 +1,34 @@
+
+# System dimensions
+#---------------------------------------------------
+dimensions:system-size-x=4 !nm
+dimensions:system-size-y=4 !nm
+dimensions:system-size-z=10 !nm
+dimensions:unit-cell-size=3.5 !A
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+create:crystal-structure=hcp
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+#---------------------------------------------------
+# Material files
+#---------------------------------------------------
+material:file=bilayer.mat
+#---------------------------------------------------
+# Simulation attributes
+#---------------------------------------------------
+sim:equilibration-time-steps=50000
+sim:total-time-steps=100000
+sim:temperature=33.0
+sim:applied-field-strength= 2.0!T
+sim:time-step=10 !fs
+sim:integrator=llg-heun
+#---------------------------------------------------
+# Data output
+#---------------------------------------------------
+output:real-time
+output:material-magnetisation
+output:applied-field-strength
+config:atoms
+config:atoms-output-rate=10
