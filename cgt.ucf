@@ -1,0 +1,30 @@
+# Unit cell parameters in angstroms
+6.83 6.83 20.51
+# Unit cell lattice vectors CGT is R3 space group (no.148)
+1.0 0.0 0.0
+-0.5 0.866 0.0
+0.0 0.0 1.0
+# Atoms num_atoms num_materials
+5 1  
+#Atoms section: atom_id cx cy cz mat_id cat_id hcat_id
+0 0.33 0.66 0.25 0 1 1   
+# Cr
+1 0.66 0.33 0.25 0 1 1   
+# Ge
+2 0.33 0.66 0.0000 0 1 1   
+# Te
+3 0.6666 0.3333 0.0000 0 1 1   
+# Te
+4 0.0000 0.0000 0.0000 0 1 1   
+# Te
+# Interactions: num_interactions exchange_type
+4 isotropic
+# Interaction list: id i j dx dy dz Jij
+0 0 0 1 0 0 -4.4206e-22  
+# J1: In-plane NN
+1 0 0 2 1 0 -1.7624e-23  
+# J2: Second NN
+2 0 0 3 0 1 -5.2872e-23  
+# J3: Third NN
+3 0 0 4 0 0 -1.3779e-22  
+# Jc1: c-axis exchange
