@@ -1,59 +1,65 @@
-08-09-2024 [23:29:26] Logfile opened
-08-09-2024 [23:29:26] Executable : vampire-serial
-08-09-2024 [23:29:26] Host name  : Rafael:
-08-09-2024 [23:29:26] Directory  : /home/barad/vampire-chiral-phonon-project
-08-09-2024 [23:29:26] Process ID : 28508
-08-09-2024 [23:29:26] Version    : 6.0.0
-08-09-2024 [23:29:26] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
-08-09-2024 [23:29:26] Opening main input file "input".
-08-09-2024 [23:29:26] Parsing system parameters from main input file.
-08-09-2024 [23:29:26] Opening material file "bilayer.mat".
-08-09-2024 [23:29:26] Parsing material file for parameters.
-08-09-2024 [23:29:26] Generating neighbour interactions for a lattice of 3 x 3 x 3 unit cells for neighbour calculation
-08-09-2024 [23:29:26] Calculating alloy properties of system
-08-09-2024 [23:29:26] Determining atomic composition:
-08-09-2024 [23:29:26] Material 1 CGT makes up 19.6721 % of all atoms ( 5760 atoms )
-08-09-2024 [23:29:26] Material 2 CeF3 makes up 80.3279 % of all atoms ( 23520 atoms )
-08-09-2024 [23:29:26] Memory required for neighbourlist calculation:0.23808 MB
-08-09-2024 [23:29:26] Allocating memory for supercell array in neighbourlist calculation
-08-09-2024 [23:29:26] 	Allocating memory done
-08-09-2024 [23:29:26] Populating supercell array for neighbourlist calculation...
-08-09-2024 [23:29:26] 	Populating supercell array completed
-08-09-2024 [23:29:26] Memory required for neighbour list:2.85696 MB
-08-09-2024 [23:29:26] Generating neighbour list...
-08-09-2024 [23:29:26] 	Neighbour list calculation complete
-08-09-2024 [23:29:26] Deallocating supercell array for neighbour list calculation
-08-09-2024 [23:29:26] 	Supercell array deallocated
-08-09-2024 [23:29:26] Copying system data to optimised data structures.
-08-09-2024 [23:29:26] Number of atoms generated on rank 0: 29280
-08-09-2024 [23:29:26] Memory required for copying to performance array on rank 0: 4.45056 MB RAM
-08-09-2024 [23:29:26] Identifying surface atoms using global threshold value of 12
-08-09-2024 [23:29:26] 960 surface atoms found.
-08-09-2024 [23:29:26] Memory required for creation of 1D neighbour list on rank 0: 0.46848 MB RAM
-08-09-2024 [23:29:26] Initialising data structures for exchange calculation.
-08-09-2024 [23:29:26] Unrolled exchange template requires 2.78784MB RAM
-08-09-2024 [23:29:26] Macrocell size = 10 Angstroms
-08-09-2024 [23:29:26] Macrocells in x,y,z: 5	5	11
-08-09-2024 [23:29:26] Total number of macrocells: 275
-08-09-2024 [23:29:26] Memory required for macrocell arrays: 0.022 MB
-08-09-2024 [23:29:26] Number of local macrocells on rank 0: 200
-08-09-2024 [23:29:26] Number of atoms generated: 29280
-08-09-2024 [23:29:26] Initialising data structures for anisotropy calculation.
-08-09-2024 [23:29:26] Initialising statistics module
-08-09-2024 [23:29:26] Starting Simulation with Program Benchmark...
-08-09-2024 [23:29:28] Initialising configuration output... done!
-08-09-2024 [23:29:28] Total coordinate data filesize: 1.40544 MB
-08-09-2024 [23:29:28] Total spin data filesize (per snapshot): 0.70272 MB
-08-09-2024 [23:29:28] Outputting atomic coordinate file to disk 0.107434 GB/s in 0.0130819 s
-08-09-2024 [23:29:28] Outputting configuration file 00000000 to disk 0.0633137 GB/s in 0.011099 s [ 0.0115188 s]
-08-09-2024 [23:29:43] Outputting configuration file 00000001 to disk 0.0600517 GB/s in 0.0117019 s [ 0.0122305 s]
-08-09-2024 [23:29:58] Outputting configuration file 00000002 to disk 0.0648866 GB/s in 0.01083 s [ 0.0112857 s]
-08-09-2024 [23:30:13] Outputting configuration file 00000003 to disk 0.0610896 GB/s in 0.0115031 s [ 0.0119642 s]
-08-09-2024 [23:30:28] Outputting configuration file 00000004 to disk 0.0637981 GB/s in 0.0110147 s [ 0.0115351 s]
-08-09-2024 [23:30:43] Outputting configuration file 00000005 to disk 0.0647005 GB/s in 0.0108611 s [ 0.0113397 s]
-08-09-2024 [23:30:57] Outputting configuration file 00000006 to disk 0.0619216 GB/s in 0.0113485 s [ 0.011786 s]
-08-09-2024 [23:31:12] Outputting configuration file 00000007 to disk 0.0612169 GB/s in 0.0114792 s [ 0.0118993 s]
-08-09-2024 [23:31:27] Outputting configuration file 00000008 to disk 0.061859 GB/s in 0.01136 s [ 0.0118458 s]
-08-09-2024 [23:31:43] Outputting configuration file 00000009 to disk 0.0603912 GB/s in 0.0116361 s [ 0.012299 s]
-08-09-2024 [23:31:56] Simulation run time [s]: 149.879
-08-09-2024 [23:31:56] Simulation ended gracefully.
+14-09-2024 [13:53:08] Logfile opened
+14-09-2024 [13:53:08] Executable : vampire-serial
+14-09-2024 [13:53:08] Host name  : Rafael:
+14-09-2024 [13:53:08] Directory  : /home/barad/vampire-chiral-phonon-project
+14-09-2024 [13:53:08] Process ID : 201753
+14-09-2024 [13:53:08] Version    : 6.0.0
+14-09-2024 [13:53:08] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
+14-09-2024 [13:53:08] Opening main input file "input".
+14-09-2024 [13:53:08] Parsing system parameters from main input file.
+14-09-2024 [13:53:08] Opening material file "material.mat".
+14-09-2024 [13:53:08] Parsing material file for parameters.
+14-09-2024 [13:53:08] Reading in unit cell data from disk...
+14-09-2024 [13:53:08] Reading data completed. Processing unit cell data...
+14-09-2024 [13:53:08] 	Processing data for 6 unit cell atoms...
+14-09-2024 [13:53:08] 	Processing unit cell atoms completed
+14-09-2024 [13:53:08] 	Processing data from 88 interactions...
+14-09-2024 [13:53:08] 	Processing unit cell interactions completed
+14-09-2024 [13:53:08] 	Verifying unit cell exchange interactions...
+14-09-2024 [13:53:08] Verifying unit cell exchange interactions completed
+14-09-2024 [13:53:08] 	Number of atoms read-in: 6
+14-09-2024 [13:53:08] 	Number of bilinear interactions read-in: 88
+14-09-2024 [13:53:08] 	Number of biquadratic interactions read-in: 0
+14-09-2024 [13:53:08] 	Exchange type: 
+14-09-2024 [13:53:08] 	Calculated interaction range: 1 Unit Cells
+14-09-2024 [13:53:08] Calculating alloy properties of system
+14-09-2024 [13:53:08] Determining atomic composition:
+14-09-2024 [13:53:08] Material 1 CGT makes up 100 % of all atoms ( 2160 atoms )
+14-09-2024 [13:53:08] Memory required for neighbourlist calculation:0.01728 MB
+14-09-2024 [13:53:08] Allocating memory for supercell array in neighbourlist calculation
+14-09-2024 [13:53:08] 	Allocating memory done
+14-09-2024 [13:53:08] Populating supercell array for neighbourlist calculation...
+14-09-2024 [13:53:08] 	Populating supercell array completed
+14-09-2024 [13:53:08] Memory required for neighbour list:0.25344 MB
+14-09-2024 [13:53:08] Generating neighbour list...
+14-09-2024 [13:53:08] 	Neighbour list calculation complete
+14-09-2024 [13:53:08] Deallocating supercell array for neighbour list calculation
+14-09-2024 [13:53:08] 	Supercell array deallocated
+14-09-2024 [13:53:08] Copying system data to optimised data structures.
+14-09-2024 [13:53:08] Number of atoms generated on rank 0: 2160
+14-09-2024 [13:53:08] Memory required for copying to performance array on rank 0: 0.32832 MB RAM
+14-09-2024 [13:53:08] Identifying surface atoms using global threshold value of 0
+14-09-2024 [13:53:08] 0 surface atoms found.
+14-09-2024 [13:53:08] Memory required for creation of 1D neighbour list on rank 0: 0.03456 MB RAM
+14-09-2024 [13:53:08] Initialising data structures for exchange calculation.
+14-09-2024 [13:53:08] Unrolled exchange template requires 0.000704MB RAM
+14-09-2024 [13:53:08] Macrocell size = 10 Angstroms
+14-09-2024 [13:53:08] Macrocells in x,y,z: 5	5	21
+14-09-2024 [13:53:08] Total number of macrocells: 525
+14-09-2024 [13:53:08] Memory required for macrocell arrays: 0.042 MB
+14-09-2024 [13:53:08] Number of local macrocells on rank 0: 320
+14-09-2024 [13:53:08] Number of atoms generated: 2160
+14-09-2024 [13:53:08] Initialising data structures for anisotropy calculation.
+14-09-2024 [13:53:08] Initialising statistics module
+14-09-2024 [13:53:08] Starting Simulation with Program Curie-Temperature...
+14-09-2024 [13:53:08] Initialising configuration output... done!
+14-09-2024 [13:53:08] Total coordinate data filesize: 0.10368 MB
+14-09-2024 [13:53:08] Total spin data filesize (per snapshot): 0.05184 MB
+14-09-2024 [13:53:08] Outputting atomic coordinate file to disk 0.0960003 GB/s in 0.00108 s
+14-09-2024 [13:53:08] Outputting configuration file 00000000 to disk 0.084555 GB/s in 0.000613092 s [ 0.000939962 s]
+14-09-2024 [13:53:36] Simulation run time [s]: 27.9971
+14-09-2024 [13:53:36] Monte Carlo statistics:
+14-09-2024 [13:53:36] 	Total moves: 3.4992e+08
+14-09-2024 [13:53:36] 	53.7084% Accepted
+14-09-2024 [13:53:36] 	46.2916% Rejected
+14-09-2024 [13:53:36] Simulation ended gracefully.
