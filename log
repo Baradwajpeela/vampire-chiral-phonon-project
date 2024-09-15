@@ -1,65 +1,65 @@
-14-09-2024 [13:53:08] Logfile opened
-14-09-2024 [13:53:08] Executable : vampire-serial
-14-09-2024 [13:53:08] Host name  : Rafael:
-14-09-2024 [13:53:08] Directory  : /home/barad/vampire-chiral-phonon-project
-14-09-2024 [13:53:08] Process ID : 201753
-14-09-2024 [13:53:08] Version    : 6.0.0
-14-09-2024 [13:53:08] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
-14-09-2024 [13:53:08] Opening main input file "input".
-14-09-2024 [13:53:08] Parsing system parameters from main input file.
-14-09-2024 [13:53:08] Opening material file "material.mat".
-14-09-2024 [13:53:08] Parsing material file for parameters.
-14-09-2024 [13:53:08] Reading in unit cell data from disk...
-14-09-2024 [13:53:08] Reading data completed. Processing unit cell data...
-14-09-2024 [13:53:08] 	Processing data for 6 unit cell atoms...
-14-09-2024 [13:53:08] 	Processing unit cell atoms completed
-14-09-2024 [13:53:08] 	Processing data from 88 interactions...
-14-09-2024 [13:53:08] 	Processing unit cell interactions completed
-14-09-2024 [13:53:08] 	Verifying unit cell exchange interactions...
-14-09-2024 [13:53:08] Verifying unit cell exchange interactions completed
-14-09-2024 [13:53:08] 	Number of atoms read-in: 6
-14-09-2024 [13:53:08] 	Number of bilinear interactions read-in: 88
-14-09-2024 [13:53:08] 	Number of biquadratic interactions read-in: 0
-14-09-2024 [13:53:08] 	Exchange type: 
-14-09-2024 [13:53:08] 	Calculated interaction range: 1 Unit Cells
-14-09-2024 [13:53:08] Calculating alloy properties of system
-14-09-2024 [13:53:08] Determining atomic composition:
-14-09-2024 [13:53:08] Material 1 CGT makes up 100 % of all atoms ( 2160 atoms )
-14-09-2024 [13:53:08] Memory required for neighbourlist calculation:0.01728 MB
-14-09-2024 [13:53:08] Allocating memory for supercell array in neighbourlist calculation
-14-09-2024 [13:53:08] 	Allocating memory done
-14-09-2024 [13:53:08] Populating supercell array for neighbourlist calculation...
-14-09-2024 [13:53:08] 	Populating supercell array completed
-14-09-2024 [13:53:08] Memory required for neighbour list:0.25344 MB
-14-09-2024 [13:53:08] Generating neighbour list...
-14-09-2024 [13:53:08] 	Neighbour list calculation complete
-14-09-2024 [13:53:08] Deallocating supercell array for neighbour list calculation
-14-09-2024 [13:53:08] 	Supercell array deallocated
-14-09-2024 [13:53:08] Copying system data to optimised data structures.
-14-09-2024 [13:53:08] Number of atoms generated on rank 0: 2160
-14-09-2024 [13:53:08] Memory required for copying to performance array on rank 0: 0.32832 MB RAM
-14-09-2024 [13:53:08] Identifying surface atoms using global threshold value of 0
-14-09-2024 [13:53:08] 0 surface atoms found.
-14-09-2024 [13:53:08] Memory required for creation of 1D neighbour list on rank 0: 0.03456 MB RAM
-14-09-2024 [13:53:08] Initialising data structures for exchange calculation.
-14-09-2024 [13:53:08] Unrolled exchange template requires 0.000704MB RAM
-14-09-2024 [13:53:08] Macrocell size = 10 Angstroms
-14-09-2024 [13:53:08] Macrocells in x,y,z: 5	5	21
-14-09-2024 [13:53:08] Total number of macrocells: 525
-14-09-2024 [13:53:08] Memory required for macrocell arrays: 0.042 MB
-14-09-2024 [13:53:08] Number of local macrocells on rank 0: 320
-14-09-2024 [13:53:08] Number of atoms generated: 2160
-14-09-2024 [13:53:08] Initialising data structures for anisotropy calculation.
-14-09-2024 [13:53:08] Initialising statistics module
-14-09-2024 [13:53:08] Starting Simulation with Program Curie-Temperature...
-14-09-2024 [13:53:08] Initialising configuration output... done!
-14-09-2024 [13:53:08] Total coordinate data filesize: 0.10368 MB
-14-09-2024 [13:53:08] Total spin data filesize (per snapshot): 0.05184 MB
-14-09-2024 [13:53:08] Outputting atomic coordinate file to disk 0.0960003 GB/s in 0.00108 s
-14-09-2024 [13:53:08] Outputting configuration file 00000000 to disk 0.084555 GB/s in 0.000613092 s [ 0.000939962 s]
-14-09-2024 [13:53:36] Simulation run time [s]: 27.9971
-14-09-2024 [13:53:36] Monte Carlo statistics:
-14-09-2024 [13:53:36] 	Total moves: 3.4992e+08
-14-09-2024 [13:53:36] 	53.7084% Accepted
-14-09-2024 [13:53:36] 	46.2916% Rejected
-14-09-2024 [13:53:36] Simulation ended gracefully.
+15-09-2024 [01:00:55] Logfile opened
+15-09-2024 [01:00:55] Executable : vampire-serial
+15-09-2024 [01:00:55] Host name  : Rafael:
+15-09-2024 [01:00:55] Directory  : /home/barad/vampire-chiral-phonon-project
+15-09-2024 [01:00:55] Process ID : 202985
+15-09-2024 [01:00:55] Version    : 6.0.0
+15-09-2024 [01:00:55] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
+15-09-2024 [01:00:55] Opening main input file "input".
+15-09-2024 [01:00:55] Parsing system parameters from main input file.
+15-09-2024 [01:00:55] Opening material file "material.mat".
+15-09-2024 [01:00:55] Parsing material file for parameters.
+15-09-2024 [01:00:55] Reading in unit cell data from disk...
+15-09-2024 [01:00:55] Reading data completed. Processing unit cell data...
+15-09-2024 [01:00:55] 	Processing data for 6 unit cell atoms...
+15-09-2024 [01:00:55] 	Processing unit cell atoms completed
+15-09-2024 [01:00:55] 	Processing data from 88 interactions...
+15-09-2024 [01:00:55] 	Processing unit cell interactions completed
+15-09-2024 [01:00:55] 	Verifying unit cell exchange interactions...
+15-09-2024 [01:00:55] Verifying unit cell exchange interactions completed
+15-09-2024 [01:00:55] 	Number of atoms read-in: 6
+15-09-2024 [01:00:55] 	Number of bilinear interactions read-in: 88
+15-09-2024 [01:00:55] 	Number of biquadratic interactions read-in: 0
+15-09-2024 [01:00:55] 	Exchange type: 
+15-09-2024 [01:00:55] 	Calculated interaction range: 1 Unit Cells
+15-09-2024 [01:00:55] Calculating alloy properties of system
+15-09-2024 [01:00:55] Determining atomic composition:
+15-09-2024 [01:00:55] Material 1 CGT makes up 100 % of all atoms ( 2160 atoms )
+15-09-2024 [01:00:55] Memory required for neighbourlist calculation:0.01728 MB
+15-09-2024 [01:00:55] Allocating memory for supercell array in neighbourlist calculation
+15-09-2024 [01:00:55] 	Allocating memory done
+15-09-2024 [01:00:55] Populating supercell array for neighbourlist calculation...
+15-09-2024 [01:00:55] 	Populating supercell array completed
+15-09-2024 [01:00:55] Memory required for neighbour list:0.25344 MB
+15-09-2024 [01:00:55] Generating neighbour list...
+15-09-2024 [01:00:55] 	Neighbour list calculation complete
+15-09-2024 [01:00:55] Deallocating supercell array for neighbour list calculation
+15-09-2024 [01:00:55] 	Supercell array deallocated
+15-09-2024 [01:00:55] Copying system data to optimised data structures.
+15-09-2024 [01:00:55] Number of atoms generated on rank 0: 2160
+15-09-2024 [01:00:55] Memory required for copying to performance array on rank 0: 0.32832 MB RAM
+15-09-2024 [01:00:55] Identifying surface atoms using global threshold value of 0
+15-09-2024 [01:00:55] 0 surface atoms found.
+15-09-2024 [01:00:55] Memory required for creation of 1D neighbour list on rank 0: 0.03456 MB RAM
+15-09-2024 [01:00:55] Initialising data structures for exchange calculation.
+15-09-2024 [01:00:55] Unrolled exchange template requires 0.000704MB RAM
+15-09-2024 [01:00:55] Macrocell size = 10 Angstroms
+15-09-2024 [01:00:55] Macrocells in x,y,z: 5	5	21
+15-09-2024 [01:00:55] Total number of macrocells: 525
+15-09-2024 [01:00:55] Memory required for macrocell arrays: 0.042 MB
+15-09-2024 [01:00:55] Number of local macrocells on rank 0: 320
+15-09-2024 [01:00:55] Number of atoms generated: 2160
+15-09-2024 [01:00:55] Initialising data structures for anisotropy calculation.
+15-09-2024 [01:00:55] Initialising statistics module
+15-09-2024 [01:00:55] Starting Simulation with Program Curie-Temperature...
+15-09-2024 [01:00:55] Initialising configuration output... done!
+15-09-2024 [01:00:55] Total coordinate data filesize: 0.10368 MB
+15-09-2024 [01:00:55] Total spin data filesize (per snapshot): 0.05184 MB
+15-09-2024 [01:00:55] Outputting atomic coordinate file to disk 0.0673063 GB/s in 0.00154042 s
+15-09-2024 [01:00:55] Outputting configuration file 00000000 to disk 0.0904497 GB/s in 0.000573136 s [ 0.000786761 s]
+15-09-2024 [01:01:22] Simulation run time [s]: 27.8417
+15-09-2024 [01:01:22] Monte Carlo statistics:
+15-09-2024 [01:01:22] 	Total moves: 3.4992e+08
+15-09-2024 [01:01:22] 	53.7084% Accepted
+15-09-2024 [01:01:22] 	46.2916% Rejected
+15-09-2024 [01:01:22] Simulation ended gracefully.
