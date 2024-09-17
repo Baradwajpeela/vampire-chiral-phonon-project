@@ -18,13 +18,13 @@ material:file=material.mat
 # Simulation attributes
 #---------------------------------------------------
 sim:program=curie-temperature
-sim:equilibration-time-steps=1000
-sim:loop-time-steps = 1000
+sim:equilibration-time-steps=10000
+sim:loop-time-steps = 10000
 sim:time-steps-increment = 1
 sim:minimum-temperature=0
 sim:maximum-temperature=100
 #sim:applied-field-strength= 2.0!T
-sim:temperature-increment=1
+sim:temperature-increment=5
 sim:integrator=monte-carlo
 #---------------------------------------------------
 # Data output
