@@ -1,8 +1,8 @@
 
 # System dimensions
-dimensions:system-size-x=4 !nm
-dimensions:system-size-y=4 !nm
-dimensions:system-size-z=11 !nm
+dimensions:system-size-x=6.83 !nm
+dimensions:system-size-y=6.83 !nm
+dimensions:system-size-z=12 !nm
 #---------------------------------------------------
 # Creation attributes
 #---------------------------------------------------
@@ -17,7 +17,7 @@ material:file=material.mat
 #---------------------------------------------------
 # Simulation attributes
 #---------------------------------------------------
-sim:temperature=33
+sim:temperature=23
 #sim:minimum-temperature=0
 #sim:maximum-temperature=33
 #sim:temperature-increment=5
@@ -25,16 +25,16 @@ sim:temperature=33
 #sim:equilibration-time-steps=1000
 #sim:loop-time-steps=1000
 #sim:time-step=1.0E-16
-sim:equilibration-time-steps=1000
+#sim:equilibration-time-steps=1000
 sim:total-time-steps=50000
-sim:laser-pulse-power=0.005
+sim:laser-pulse-power=1e-5
 sim:laser-pulse-temporal-profile=two-temperature
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
 sim:integrator=llg-heun 
 sim:time-step=1.0e-16
-
+sim:time-steps-increment=1
 #------------------------------------------
 # data output
 #------------------------------------------
@@ -46,3 +46,4 @@ output:temperature
 output:magnetisation-length
 #screen:real-time
 #screen:magnetisation-length
+config:atoms

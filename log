@@ -1,64 +1,110 @@
-17-09-2024 [17:11:42] Logfile opened
-17-09-2024 [17:11:42] Executable : vampire-serial
-17-09-2024 [17:11:42] Host name  : Cygnus:
-17-09-2024 [17:11:42] Directory  : /home/baradwaj/vampire-chiral-phonon-project
-17-09-2024 [17:11:42] Process ID : 1407
-17-09-2024 [17:11:42] Version    : 7.0.0
-17-09-2024 [17:11:42] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
-17-09-2024 [17:11:42] Opening main input file "input".
-17-09-2024 [17:11:42]    Loading text file input on root process
-17-09-2024 [17:11:42]    File successfully loaded on root process with 1456 characters and size 0.001456 [ 150.242 ] MB/s
-17-09-2024 [17:11:42] Parsing system parameters from main input file.
-17-09-2024 [17:11:42] Opening material file "material.mat".
-17-09-2024 [17:11:42]    Loading text file material.mat on root process
-17-09-2024 [17:11:42]    File successfully loaded on root process with 747 characters and size 0.000747 [ 135.106 ] MB/s
-17-09-2024 [17:11:42] Parsing material file for parameters.
-17-09-2024 [17:11:42] Setting periodic boundary conditions in x,y directions
-17-09-2024 [17:11:42] Reading in unit cell data from disk...
-17-09-2024 [17:11:42]    Loading text file cgt.ucf on root process
-17-09-2024 [17:11:42]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 261.181 ] MB/s
-17-09-2024 [17:11:42] Reading data completed. Processing unit cell data...
-17-09-2024 [17:11:42] 	Processing data for 6 unit cell atoms...
-17-09-2024 [17:11:42] 	Processing unit cell atoms completed
-17-09-2024 [17:11:42] 	Processing data from 114 interactions...
-17-09-2024 [17:11:42] 	Processing unit cell interactions completed
-17-09-2024 [17:11:42] 	Verifying unit cell exchange interactions...
-17-09-2024 [17:11:42] Verifying unit cell exchange interactions completed
-17-09-2024 [17:11:42] 	Number of atoms read-in: 6
-17-09-2024 [17:11:42] 	Number of bilinear interactions read-in: 114
-17-09-2024 [17:11:42] 	Number of biquadratic interactions read-in: 0
-17-09-2024 [17:11:42] 	Exchange type: 
-17-09-2024 [17:11:42] 	Calculated interaction range: 2 Unit Cells
-17-09-2024 [17:11:42] Calculating alloy properties of system
-17-09-2024 [17:11:42] Determining atomic composition:
-17-09-2024 [17:11:42] Material 1 CGT makes up 100 % of all atoms ( 1224 atoms )
-17-09-2024 [17:11:42] Memory required for neighbourlist calculation:0.010368 MB
-17-09-2024 [17:11:42] Allocating memory for supercell array in neighbourlist calculation
-17-09-2024 [17:11:42] 	Allocating memory done
-17-09-2024 [17:11:42] Populating supercell array for neighbourlist calculation...
-17-09-2024 [17:11:42] 	Populating supercell array completed
-17-09-2024 [17:11:42] Memory required for neighbour list:0.196992 MB
-17-09-2024 [17:11:42] Generating neighbour list...
-17-09-2024 [17:11:42] 	Neighbour list calculation complete
-17-09-2024 [17:11:42] Deallocating supercell array for neighbour list calculation
-17-09-2024 [17:11:42] 	Supercell array deallocated
-17-09-2024 [17:11:42] Copying system data to optimised data structures.
-17-09-2024 [17:11:42] Number of atoms generated on rank 0: 1224
-17-09-2024 [17:11:42] Memory required for copying to performance array on rank 0: 0.186048 MB RAM
-17-09-2024 [17:11:42] Identifying surface atoms using global threshold value of 0
-17-09-2024 [17:11:42] 0 surface atoms found.
-17-09-2024 [17:11:42] Memory required for creation of 1D neighbour list on rank 0: 0.019584 MB RAM
-17-09-2024 [17:11:42] Initialising data structures for exchange calculation.
-17-09-2024 [17:11:42] Unrolled exchange template requires 0.000912MB RAM
-17-09-2024 [17:11:42] Number of atoms generated: 1224
-17-09-2024 [17:11:42] Initializing vampire modules
-17-09-2024 [17:11:42] Macrocell size = 10,10,10 Angstroms
-17-09-2024 [17:11:42] Macrocells in x,y,z: 5	5	12
-17-09-2024 [17:11:42] Total number of macrocells: 300
-17-09-2024 [17:11:42] Memory required for macrocell arrays: 0.024 MB
-17-09-2024 [17:11:42] Number of local macrocells on rank 0: 176
-17-09-2024 [17:11:42] Initialising data structures for anisotropy calculation for 100 materials
-17-09-2024 [17:11:42] Initialising statistics module
-17-09-2024 [17:11:42] Starting Simulation with Program Benchmark...
-17-09-2024 [17:11:46] Simulation run time [s]: 4.07807
-17-09-2024 [17:11:46] Simulation ended gracefully.
+18-09-2024 [01:08:08] Logfile opened
+18-09-2024 [01:08:08] Executable : vampire-serial
+18-09-2024 [01:08:08] Host name  : Rafael:
+18-09-2024 [01:08:08] Directory  : /home/barad/vampire-chiral-phonon-project
+18-09-2024 [01:08:08] Process ID : 206468
+18-09-2024 [01:08:08] Version    : 6.0.0
+18-09-2024 [01:08:08] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
+18-09-2024 [01:08:08] Opening main input file "input".
+18-09-2024 [01:08:08] Parsing system parameters from main input file.
+18-09-2024 [01:08:08] Opening material file "material.mat".
+18-09-2024 [01:08:08] Parsing material file for parameters.
+18-09-2024 [01:08:08] Reading in unit cell data from disk...
+18-09-2024 [01:08:08] Reading data completed. Processing unit cell data...
+18-09-2024 [01:08:08] 	Processing data for 6 unit cell atoms...
+18-09-2024 [01:08:08] 	Processing unit cell atoms completed
+18-09-2024 [01:08:08] 	Processing data from 114 interactions...
+18-09-2024 [01:08:08] 	Processing unit cell interactions completed
+18-09-2024 [01:08:08] 	Verifying unit cell exchange interactions...
+18-09-2024 [01:08:08] Verifying unit cell exchange interactions completed
+18-09-2024 [01:08:08] 	Number of atoms read-in: 6
+18-09-2024 [01:08:08] 	Number of bilinear interactions read-in: 114
+18-09-2024 [01:08:08] 	Number of biquadratic interactions read-in: 0
+18-09-2024 [01:08:08] 	Exchange type: 
+18-09-2024 [01:08:08] 	Calculated interaction range: 2 Unit Cells
+18-09-2024 [01:08:08] Calculating alloy properties of system
+18-09-2024 [01:08:08] Determining atomic composition:
+18-09-2024 [01:08:08] Material 1 CGT makes up 100 % of all atoms ( 3600 atoms )
+18-09-2024 [01:08:08] Memory required for neighbourlist calculation:0.0288 MB
+18-09-2024 [01:08:08] Allocating memory for supercell array in neighbourlist calculation
+18-09-2024 [01:08:08] 	Allocating memory done
+18-09-2024 [01:08:08] Populating supercell array for neighbourlist calculation...
+18-09-2024 [01:08:08] 	Populating supercell array completed
+18-09-2024 [01:08:08] Memory required for neighbour list:0.5472 MB
+18-09-2024 [01:08:08] Generating neighbour list...
+18-09-2024 [01:08:08] 	Neighbour list calculation complete
+18-09-2024 [01:08:08] Deallocating supercell array for neighbour list calculation
+18-09-2024 [01:08:08] 	Supercell array deallocated
+18-09-2024 [01:08:08] Copying system data to optimised data structures.
+18-09-2024 [01:08:08] Number of atoms generated on rank 0: 3600
+18-09-2024 [01:08:08] Memory required for copying to performance array on rank 0: 0.5472 MB RAM
+18-09-2024 [01:08:08] Identifying surface atoms using global threshold value of 0
+18-09-2024 [01:08:08] 0 surface atoms found.
+18-09-2024 [01:08:08] Memory required for creation of 1D neighbour list on rank 0: 0.0576 MB RAM
+18-09-2024 [01:08:08] Initialising data structures for exchange calculation.
+18-09-2024 [01:08:08] Unrolled exchange template requires 0.000912MB RAM
+18-09-2024 [01:08:08] Macrocell size = 10 Angstroms
+18-09-2024 [01:08:08] Macrocells in x,y,z: 7	7	13
+18-09-2024 [01:08:08] Total number of macrocells: 637
+18-09-2024 [01:08:08] Memory required for macrocell arrays: 0.05096 MB
+18-09-2024 [01:08:08] Number of local macrocells on rank 0: 588
+18-09-2024 [01:08:08] Number of atoms generated: 3600
+18-09-2024 [01:08:08] Initialising data structures for anisotropy calculation.
+18-09-2024 [01:08:08] Initialising statistics module
+18-09-2024 [01:08:08] Starting Simulation with Program Benchmark...
+18-09-2024 [01:08:08] Initialising configuration output... done!
+18-09-2024 [01:08:08] Total coordinate data filesize: 0.1728 MB
+18-09-2024 [01:08:08] Total spin data filesize (per snapshot): 0.0864 MB
+18-09-2024 [01:08:08] Outputting atomic coordinate file to disk 0.0948793 GB/s in 0.00182126 s
+18-09-2024 [01:08:08] Outputting configuration file 00000000 to disk 0.055715 GB/s in 0.00155075 s [ 0.00208787 s]
+18-09-2024 [01:08:08] Outputting configuration file 00000001 to disk 0.0614323 GB/s in 0.00140643 s [ 0.0016508 s]
+18-09-2024 [01:08:08] Outputting configuration file 00000002 to disk 0.0607863 GB/s in 0.00142137 s [ 0.00169482 s]
+18-09-2024 [01:08:09] Outputting configuration file 00000003 to disk 0.0622541 GB/s in 0.00138786 s [ 0.00162415 s]
+18-09-2024 [01:08:09] Outputting configuration file 00000004 to disk 0.0636815 GB/s in 0.00135675 s [ 0.00158922 s]
+18-09-2024 [01:08:09] Outputting configuration file 00000005 to disk 0.0502863 GB/s in 0.00171816 s [ 0.00201603 s]
+18-09-2024 [01:08:09] Outputting configuration file 00000006 to disk 0.0623576 GB/s in 0.00138556 s [ 0.00163881 s]
+18-09-2024 [01:08:09] Outputting configuration file 00000007 to disk 0.0586932 GB/s in 0.00147206 s [ 0.00169919 s]
+18-09-2024 [01:08:10] Outputting configuration file 00000008 to disk 0.0573528 GB/s in 0.00150647 s [ 0.0017846 s]
+18-09-2024 [01:08:10] Outputting configuration file 00000009 to disk 0.0468507 GB/s in 0.00184416 s [ 0.00210768 s]
+18-09-2024 [01:08:10] Outputting configuration file 00000010 to disk 0.0570157 GB/s in 0.00151537 s [ 0.00180393 s]
+18-09-2024 [01:08:10] Outputting configuration file 00000011 to disk 0.0622662 GB/s in 0.00138759 s [ 0.00333337 s]
+18-09-2024 [01:08:11] Outputting configuration file 00000012 to disk 0.0642772 GB/s in 0.00134418 s [ 0.0016023 s]
+18-09-2024 [01:08:11] Outputting configuration file 00000013 to disk 0.0635539 GB/s in 0.00135948 s [ 0.00159771 s]
+18-09-2024 [01:08:11] Outputting configuration file 00000014 to disk 0.0604806 GB/s in 0.00142856 s [ 0.00166641 s]
+18-09-2024 [01:08:11] Outputting configuration file 00000015 to disk 0.0473526 GB/s in 0.00182461 s [ 0.0025479 s]
+18-09-2024 [01:08:11] Outputting configuration file 00000016 to disk 0.0630276 GB/s in 0.00137083 s [ 0.00223227 s]
+18-09-2024 [01:08:12] Outputting configuration file 00000017 to disk 0.0528936 GB/s in 0.00163347 s [ 0.00192229 s]
+18-09-2024 [01:08:12] Outputting configuration file 00000018 to disk 0.0604895 GB/s in 0.00142835 s [ 0.00167223 s]
+18-09-2024 [01:08:12] Outputting configuration file 00000019 to disk 0.0604819 GB/s in 0.00142853 s [ 0.00170482 s]
+18-09-2024 [01:08:12] Outputting configuration file 00000020 to disk 0.0614047 GB/s in 0.00140706 s [ 0.00169765 s]
+18-09-2024 [01:08:13] Outputting configuration file 00000021 to disk 0.0643194 GB/s in 0.0013433 s [ 0.00157849 s]
+18-09-2024 [01:08:13] Outputting configuration file 00000022 to disk 0.0615459 GB/s in 0.00140383 s [ 0.00332647 s]
+18-09-2024 [01:08:13] Outputting configuration file 00000023 to disk 0.0621899 GB/s in 0.00138929 s [ 0.00163118 s]
+18-09-2024 [01:08:13] Outputting configuration file 00000024 to disk 0.0605494 GB/s in 0.00142694 s [ 0.0034758 s]
+18-09-2024 [01:08:13] Outputting configuration file 00000025 to disk 0.0625576 GB/s in 0.00138113 s [ 0.00160907 s]
+18-09-2024 [01:08:14] Outputting configuration file 00000026 to disk 0.0624172 GB/s in 0.00138423 s [ 0.001659 s]
+18-09-2024 [01:08:14] Outputting configuration file 00000027 to disk 0.06353 GB/s in 0.00135999 s [ 0.00160051 s]
+18-09-2024 [01:08:14] Outputting configuration file 00000028 to disk 0.0585601 GB/s in 0.00147541 s [ 0.00172064 s]
+18-09-2024 [01:08:14] Outputting configuration file 00000029 to disk 0.0606785 GB/s in 0.0014239 s [ 0.00165936 s]
+18-09-2024 [01:08:15] Outputting configuration file 00000030 to disk 0.0597162 GB/s in 0.00144684 s [ 0.00168814 s]
+18-09-2024 [01:08:15] Outputting configuration file 00000031 to disk 0.0600159 GB/s in 0.00143962 s [ 0.00170414 s]
+18-09-2024 [01:08:15] Outputting configuration file 00000032 to disk 0.0626066 GB/s in 0.00138005 s [ 0.00160416 s]
+18-09-2024 [01:08:15] Outputting configuration file 00000033 to disk 0.0600903 GB/s in 0.00143784 s [ 0.00167997 s]
+18-09-2024 [01:08:15] Outputting configuration file 00000034 to disk 0.0614529 GB/s in 0.00140596 s [ 0.00163803 s]
+18-09-2024 [01:08:16] Outputting configuration file 00000035 to disk 0.0620382 GB/s in 0.00139269 s [ 0.00163293 s]
+18-09-2024 [01:08:16] Outputting configuration file 00000036 to disk 0.0601062 GB/s in 0.00143746 s [ 0.00168519 s]
+18-09-2024 [01:08:16] Outputting configuration file 00000037 to disk 0.0603481 GB/s in 0.00143169 s [ 0.00167805 s]
+18-09-2024 [01:08:16] Outputting configuration file 00000038 to disk 0.0623085 GB/s in 0.00138665 s [ 0.00162109 s]
+18-09-2024 [01:08:17] Outputting configuration file 00000039 to disk 0.062299 GB/s in 0.00138686 s [ 0.00163216 s]
+18-09-2024 [01:08:17] Outputting configuration file 00000040 to disk 0.0652652 GB/s in 0.00132383 s [ 0.00154762 s]
+18-09-2024 [01:08:17] Outputting configuration file 00000041 to disk 0.0588049 GB/s in 0.00146927 s [ 0.0017177 s]
+18-09-2024 [01:08:17] Outputting configuration file 00000042 to disk 0.0593885 GB/s in 0.00145483 s [ 0.00171616 s]
+18-09-2024 [01:08:18] Outputting configuration file 00000043 to disk 0.0593688 GB/s in 0.00145531 s [ 0.00180537 s]
+18-09-2024 [01:08:18] Outputting configuration file 00000044 to disk 0.0555789 GB/s in 0.00155455 s [ 0.00353931 s]
+18-09-2024 [01:08:18] Outputting configuration file 00000045 to disk 0.0603768 GB/s in 0.00143101 s [ 0.00166687 s]
+18-09-2024 [01:08:18] Outputting configuration file 00000046 to disk 0.0600414 GB/s in 0.00143901 s [ 0.00168386 s]
+18-09-2024 [01:08:18] Outputting configuration file 00000047 to disk 0.0624113 GB/s in 0.00138436 s [ 0.0016253 s]
+18-09-2024 [01:08:19] Outputting configuration file 00000048 to disk 0.0619691 GB/s in 0.00139424 s [ 0.00164953 s]
+18-09-2024 [01:08:19] Outputting configuration file 00000049 to disk 0.0621926 GB/s in 0.00138923 s [ 0.00163505 s]
+18-09-2024 [01:08:19] Simulation run time [s]: 11.2859
+18-09-2024 [01:08:19] Simulation ended gracefully.
