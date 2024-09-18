@@ -1,0 +1,50 @@
+
+# System dimensions
+dimensions:system-size-x=6.83 !A
+dimensions:system-size-y=6.83 !A
+dimensions:system-size-z=20.51 !A
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+#create:periodic-boundaries-z
+#---------------------------------------------------
+# Material files
+#---------------------------------------------------
+material:unit-cell-file=cgt.ucf
+material:file=material.mat
+#---------------------------------------------------
+# Simulation attributes
+#---------------------------------------------------
+#sim:temperature=10
+sim:minimum-temperature=0
+sim:maximum-temperature=100
+sim:temperature-increment=1
+sim:equilibration-time-steps=1000
+sim:loop-time-steps=1000
+#sim:time-steps-increment=1
+#sim:time-step=1.0E-16
+#sim:equilibration-time-steps=10000
+#sim:total-time-steps=50000
+#sim:laser-pulse-power=40
+#sim:laser-pulse-temporal-profile=two-temperature
+
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:integrator=monte-carlo 
+#sim:time-step=1.0e-16
+#sim:time-steps-increment=1
+#------------------------------------------
+# data output
+#------------------------------------------
+output:column-headers
+#output:real-time
+output:temperature
+#output:electron-temperature
+#output:phonon-temperature
+output:magnetisation-length
+screen:real-time
+screen:magnetisation-length
+config:atoms
