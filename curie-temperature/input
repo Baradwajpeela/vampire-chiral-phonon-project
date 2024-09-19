@@ -16,35 +16,25 @@ material:file=material.mat
 #---------------------------------------------------
 # Simulation attributes
 #---------------------------------------------------
-sim:temperature=33
-#sim:program=curie-temperature
-#sim:minimum-temperature=0
-#sim:maximum-temperature=100
-#sim:temperature-increment=1
-sim:equilibration-time-steps=10000
-sim:loop-time-steps=10000
-sim:time-steps-increment=1
-sim:time-step=1.0E-16
-sim:equilibration-time-steps=10000
-sim:total-time-steps=50000
-sim:laser-pulse-power=40
+sim:program=laser-pulse
+sim:equilibration-temperature=10
+sim:laser-pulse-power=0.09
 sim:laser-pulse-temporal-profile=two-temperature
-
+#sim:equilibration-time-steps=10000
+sim:total-time-steps=50000
+sim:time-step=1.0E-17
+sim:integrator=llg-heun
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
-sim:integrator=llg-heun 
-sim:time-step=1.0e-16
-sim:time-steps-increment=1
 #------------------------------------------
 # data output
 #------------------------------------------
 output:column-headers
 output:real-time
-output:temperature
 output:electron-temperature
 output:phonon-temperature
 output:magnetisation-length
-#screen:temperature
-#screen:magnetisation-length
 config:atoms
+screen:electron-temperature
+screen:phonon-temperature
