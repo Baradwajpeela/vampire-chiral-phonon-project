@@ -20,9 +20,10 @@ sim:program=laser-pulse
 sim:equilibration-temperature=10
 sim:laser-pulse-power=0.09
 sim:laser-pulse-temporal-profile=two-temperature
-#sim:equilibration-time-steps=10000
+sim:equilibration-time-steps=10000
 sim:total-time-steps=50000
 sim:time-step=1.0E-17
+sim:time-steps-increment=10
 sim:integrator=llg-heun
 #------------------------------------------
 # Program and integrator details
