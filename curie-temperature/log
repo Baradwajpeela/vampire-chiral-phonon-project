@@ -1,95 +1,17 @@
-19-09-2024 [16:03:57] Logfile opened
-19-09-2024 [16:03:57] Executable : vampire-serial
-19-09-2024 [16:03:57] Host name  : Cygnus:
-19-09-2024 [16:03:57] Directory  : /home/baradwaj/vampire-chiral-phonon-project/curie-temperature
-19-09-2024 [16:03:57] Process ID : 3542
-19-09-2024 [16:03:57] Version    : 7.0.0
-19-09-2024 [16:03:57] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
-19-09-2024 [16:03:57] Opening main input file "input".
-19-09-2024 [16:03:57]    Loading text file input on root process
-19-09-2024 [16:03:57]    File successfully loaded on root process with 1410 characters and size 0.00141 [ 170.023 ] MB/s
-19-09-2024 [16:03:57] Parsing system parameters from main input file.
-19-09-2024 [16:03:57] Opening material file "material.mat".
-19-09-2024 [16:03:57]    Loading text file material.mat on root process
-19-09-2024 [16:03:57]    File successfully loaded on root process with 1102 characters and size 0.001102 [ 3.02359 ] MB/s
-19-09-2024 [16:03:57] Parsing material file for parameters.
-19-09-2024 [16:03:57] Setting periodic boundary conditions in x,y directions
-19-09-2024 [16:03:57] Reading in unit cell data from disk...
-19-09-2024 [16:03:57]    Loading text file cgt.ucf on root process
-19-09-2024 [16:03:57]    File successfully loaded on root process with 4276 characters and size 0.004276 [ 14.4971 ] MB/s
-19-09-2024 [16:03:57] Reading data completed. Processing unit cell data...
-19-09-2024 [16:03:57] 	Processing data for 30 unit cell atoms...
-19-09-2024 [16:03:57] 	Processing unit cell atoms completed
-19-09-2024 [16:03:57] 	Processing data from 114 interactions...
-19-09-2024 [16:03:57] 	Processing unit cell interactions completed
-19-09-2024 [16:03:57] 	Verifying unit cell exchange interactions...
-19-09-2024 [16:03:57] Verifying unit cell exchange interactions completed
-19-09-2024 [16:03:57] 	Number of atoms read-in: 30
-19-09-2024 [16:03:57] 	Number of bilinear interactions read-in: 114
-19-09-2024 [16:03:57] 	Number of biquadratic interactions read-in: 0
-19-09-2024 [16:03:57] 	Exchange type: 
-19-09-2024 [16:03:57] 	Calculated interaction range: 2 Unit Cells
-19-09-2024 [16:03:57] Removed 12800 non-magnetic atoms from system
-19-09-2024 [16:03:57] Calculating alloy properties of system
-19-09-2024 [16:03:57] Determining atomic composition:
-19-09-2024 [16:03:57] Material 1 Cr makes up 100 % of all atoms ( 3200 atoms )
-19-09-2024 [16:03:57] Material 2 Ge makes up 0 % of all atoms ( 0 atoms )
-19-09-2024 [16:03:57] Material 3 Te makes up 0 % of all atoms ( 0 atoms )
-19-09-2024 [16:03:57] Memory required for neighbourlist calculation:0.144 MB
-19-09-2024 [16:03:57] Allocating memory for supercell array in neighbourlist calculation
-19-09-2024 [16:03:57] 	Allocating memory done
-19-09-2024 [16:03:57] Populating supercell array for neighbourlist calculation...
-19-09-2024 [16:03:57] 	Populating supercell array completed
-19-09-2024 [16:03:57] Memory required for neighbour list:0.5472 MB
-19-09-2024 [16:03:57] Generating neighbour list...
-19-09-2024 [16:03:57] 	Neighbour list calculation complete
-19-09-2024 [16:03:57] Deallocating supercell array for neighbour list calculation
-19-09-2024 [16:03:57] 	Supercell array deallocated
-19-09-2024 [16:03:57] Copying system data to optimised data structures.
-19-09-2024 [16:03:57] Number of atoms generated on rank 0: 3200
-19-09-2024 [16:03:57] Memory required for copying to performance array on rank 0: 0.4864 MB RAM
-19-09-2024 [16:03:57] Identifying surface atoms using global threshold value of 0
-19-09-2024 [16:03:57] 0 surface atoms found.
-19-09-2024 [16:03:57] Memory required for creation of 1D neighbour list on rank 0: 0.0512 MB RAM
-19-09-2024 [16:03:57] Initialising data structures for exchange calculation.
-19-09-2024 [16:03:57] Unrolled exchange template requires 0.000912MB RAM
-19-09-2024 [16:03:57] Number of atoms generated: 3200
-19-09-2024 [16:03:57] Initializing vampire modules
-19-09-2024 [16:03:57] Macrocell size = 10,10,10 Angstroms
-19-09-2024 [16:03:57] Macrocells in x,y,z: 7	7	12
-19-09-2024 [16:03:57] Total number of macrocells: 588
-19-09-2024 [16:03:57] Memory required for macrocell arrays: 0.04704 MB
-19-09-2024 [16:03:57] Number of local macrocells on rank 0: 539
-19-09-2024 [16:03:57] Initialising data structures for anisotropy calculation for 100 materials
-19-09-2024 [16:03:57] Initialising statistics module
-19-09-2024 [16:03:57] Preconditioning spin configuration at T = 10 K ...
-19-09-2024 [16:04:00] Preconditioning completed in 2.94896 s
-19-09-2024 [16:04:00] Starting Simulation with Program Temperature-Pulse...
-19-09-2024 [16:04:00] Initialising configuration output... done!
-19-09-2024 [16:04:00] Total coordinate data filesize: 0.1536 MB
-19-09-2024 [16:04:00] Total spin data filesize (per snapshot): 0.0768 MB
-19-09-2024 [16:04:00] Outputting atomic coordinate file to disk 0.0573456 GB/s in 0.0026785 s
-19-09-2024 [16:04:00] Total non-magnetic data filesize: 0.6144 MB
-19-09-2024 [16:04:00] Outputting non-magnetic atomic coordinate file to disk 0.067636 GB/s in 0.00908392 s
-19-09-2024 [16:04:00] Outputting configuration file 00000000 to disk 0.0466396 GB/s in 0.00164667 s [ 0.00179869 s]
-19-09-2024 [16:04:00] Outputting configuration file 00000001 to disk 0.0449861 GB/s in 0.0017072 s [ 0.00186726 s]
-19-09-2024 [16:04:00] Outputting configuration file 00000002 to disk 0.0457037 GB/s in 0.00168039 s [ 0.00181932 s]
-19-09-2024 [16:04:00] Outputting configuration file 00000003 to disk 0.0460506 GB/s in 0.00166773 s [ 0.00189424 s]
-19-09-2024 [16:04:01] Outputting configuration file 00000004 to disk 0.0459674 GB/s in 0.00167075 s [ 0.00179505 s]
-19-09-2024 [16:04:01] Outputting configuration file 00000005 to disk 0.0459575 GB/s in 0.00167111 s [ 0.00181451 s]
-19-09-2024 [16:04:01] Outputting configuration file 00000006 to disk 0.0442644 GB/s in 0.00173503 s [ 0.00186784 s]
-19-09-2024 [16:04:01] Outputting configuration file 00000007 to disk 0.0443571 GB/s in 0.0017314 s [ 0.00186373 s]
-19-09-2024 [16:04:02] Outputting configuration file 00000008 to disk 0.0357901 GB/s in 0.00214584 s [ 0.002419 s]
-19-09-2024 [16:04:02] Outputting configuration file 00000009 to disk 0.0396109 GB/s in 0.00193886 s [ 0.00213735 s]
-19-09-2024 [16:04:02] Outputting configuration file 00000010 to disk 0.040965 GB/s in 0.00187477 s [ 0.00205864 s]
-19-09-2024 [16:04:02] Outputting configuration file 00000011 to disk 0.0448102 GB/s in 0.0017139 s [ 0.00188583 s]
-19-09-2024 [16:04:03] Outputting configuration file 00000012 to disk 0.0400471 GB/s in 0.00191774 s [ 0.002049 s]
-19-09-2024 [16:04:03] Outputting configuration file 00000013 to disk 0.041869 GB/s in 0.00183429 s [ 0.00201174 s]
-19-09-2024 [16:04:03] Outputting configuration file 00000014 to disk 0.0465928 GB/s in 0.00164832 s [ 0.00181852 s]
-19-09-2024 [16:04:04] Outputting configuration file 00000015 to disk 0.0354452 GB/s in 0.00216672 s [ 0.00235762 s]
-19-09-2024 [16:04:04] Outputting configuration file 00000016 to disk 0.0383742 GB/s in 0.00200135 s [ 0.00218024 s]
-19-09-2024 [16:04:04] Outputting configuration file 00000017 to disk 0.0409486 GB/s in 0.00187552 s [ 0.00203683 s]
-19-09-2024 [16:04:04] Outputting configuration file 00000018 to disk 0.0418698 GB/s in 0.00183426 s [ 0.0130937 s]
-19-09-2024 [16:04:05] Outputting configuration file 00000019 to disk 0.0432346 GB/s in 0.00177636 s [ 0.00196039 s]
-19-09-2024 [16:04:05] Simulation run time [s]: 8.19648
-19-09-2024 [16:04:05] Simulation ended gracefully.
+20-09-2024 [13:44:14] Logfile opened
+20-09-2024 [13:44:14] Executable : vampire-serial
+20-09-2024 [13:44:14] Host name  : Cygnus:
+20-09-2024 [13:44:14] Directory  : /home/baradwaj/vampire-chiral-phonon-project/curie-temperature
+20-09-2024 [13:44:14] Process ID : 6614
+20-09-2024 [13:44:14] Version    : 7.0.0
+20-09-2024 [13:44:14] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
+20-09-2024 [13:44:14] Opening main input file "input".
+20-09-2024 [13:44:14]    Loading text file input on root process
+20-09-2024 [13:44:14]    File successfully loaded on root process with 1480 characters and size 0.00148 [ 77.5153 ] MB/s
+20-09-2024 [13:44:14] Parsing system parameters from main input file.
+20-09-2024 [13:44:14] Opening material file "material.mat".
+20-09-2024 [13:44:14]    Loading text file material.mat on root process
+20-09-2024 [13:44:14]    File successfully loaded on root process with 1150 characters and size 0.00115 [ 129.402 ] MB/s
+20-09-2024 [13:44:14] Parsing material file for parameters.
+20-09-2024 [13:44:14] Error - Unknown control statement 'material[1]:couple-to-phononic-temperature = on on line 17 of material file 'material.mat'
+20-09-2024 [13:44:14] Fatal error: Aborting program.

@@ -1,0 +1,46 @@
+x# System dimensions
+dimensions:system-size-x=6.83 !nm
+dimensions:system-size-y=6.83 !nm
+dimensions:system-size-z=13 !nm
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+#create:periodic-boundaries-z
+#---------------------------------------------------
+# Material files
+#---------------------------------------------------
+material:unit-cell-file=cgt.ucf
+material:file=material.mat
+#---------------------------------------------------
+# Simulation attributes
+#---------------------------------------------------
+sim:program=laser-pulse
+sim:equilibration-temperature=10
+sim:laser-pulse-power= 12
+sim:laser-pulse-time = 2000 !fs
+sim:laser-pulse-temporal-profile=two-temperature
+sim:preconditioning-steps=10000
+sim:equilibration-time-steps=10000
+sim:total-time-steps=50000
+sim:time-step=5E-16
+sim:time-steps-increment=1
+sim:applied-field-strength = 1 !T
+sim:applied-field-unit-vector = 1,0,0
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:integrator=llg-heun
+#------------------------------------------
+# data output
+#------------------------------------------
+output:column-headers
+output:real-time
+output:electron-temperature
+output:phonon-temperature
+output:magnetisation-length
+config:atoms
+#screen:real-time
+#screen:electron-temperature
+#screen:phonon-temperature
