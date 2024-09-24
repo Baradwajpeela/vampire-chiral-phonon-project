@@ -48,4 +48,3 @@ config:atoms
 #screen:real-time
 #screen:electron-temperature
 #screen:phonon-temperature
-

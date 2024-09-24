@@ -1,0 +1,41 @@
+# System dimensions
+dimensions:system-size-x=6.83 !nm
+dimensions:system-size-y=6.83 !nm
+dimensions:system-size-z=11.6 !nm
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+#create:periodic-boundaries-z
+#---------------------------------------------------
+# Material files
+#---------------------------------------------------
+material:unit-cell-file=cgt.ucf
+material:file=material.mat
+#------------------------------------------
+# Simulation attributes:
+#------------------------------------------
+
+sim:loop-time-steps=10000
+sim:time-step=1.0e-15
+sim:temperature = 10
+sim:maximum-applied-field-strength = 1 !T
+sim:applied-field-strength-increment = 0.1 !T
+sim:applied-field-unit-vector = 0,0,1
+
+
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program=hysteresis-loop
+sim:integrator=llg-heun
+
+#------------------------------------------
+# data output
+#------------------------------------------
+output:column-headers
+output:real-time
+output:applied-field-strength
+output:magnetisation
+config:atoms
