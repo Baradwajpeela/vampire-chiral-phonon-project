@@ -23,15 +23,14 @@ sim:laser-pulse-time = 2000 !fs
 sim:laser-pulse-temporal-profile=two-temperature
 sim:preconditioning-steps=10000
 sim:equilibration-time-steps=10000
-sim:total-time-steps=1E6
+sim:total-time-steps=300000
 sim:time-step=5E-16
 sim:time-steps-increment=1
-#sim:applied-field-strength = 0.9 !T
-#sim:applied-field-unit-vector = 0,0,-1
+sim:applied-field-strength = 2 !T
+sim:applied-field-unit-vector = 0,0,-1
 sim:two-temperature-electron-heat-capacity = 30
 sim:two-temperature-phonon-heat-capacity = 500
 sim:two-temperature-electron-phonon-coupling = 1E15
-
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------

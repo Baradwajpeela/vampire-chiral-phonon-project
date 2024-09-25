@@ -3,6 +3,7 @@ set y2tics
 set ytics nomirror
 set xlabel "time in picoseconds {/Symbol d} t"
 set ylabel "|{/Symbol D} m|"
+set xrange [0:150]
 set y2range [10:33]
 set y2label "Temperature in K"
 set title "Magnetisation-length vs time"
