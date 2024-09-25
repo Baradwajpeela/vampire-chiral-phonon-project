@@ -28,7 +28,7 @@ sim:applied-field-unit-vector = 0,0,1
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
-sim:program=hysteresis-loop
+sim:program=field-pulse
 sim:integrator=llg-heun
 
 #------------------------------------------
