@@ -20,9 +20,9 @@ sim:equilibration-temperature=10
 sim:laser-pulse-power= 0.44
 sim:laser-pulse-time = 2000 !fs
 sim:laser-pulse-temporal-profile=two-temperature
-sim:preconditioning-steps=10000
-sim:equilibration-time-steps=10000
-sim:total-time-steps=20000
+sim:preconditioning-steps=50000
+sim:equilibration-time-steps=50000
+sim:total-time-steps=10000
 sim:time-step=5E-16
 sim:time-steps-increment=1
 sim:two-temperature-electron-heat-capacity = 300
@@ -44,4 +44,4 @@ output:phonon-temperature
 output:applied-field-strength
 output:magnetisation-length
 config:atoms
-screen:real-time
+#screen:real-time
