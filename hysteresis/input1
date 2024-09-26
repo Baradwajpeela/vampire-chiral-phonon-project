@@ -1,4 +1,4 @@
-# System dimensions
+\# System dimensions
 dimensions:system-size-x=6.83 !nm
 dimensions:system-size-y=6.83 !nm
 dimensions:system-size-z=11.6 !nm
@@ -12,7 +12,7 @@ create:periodic-boundaries-y
 # Material files
 #---------------------------------------------------
 material:unit-cell-file=cgt.ucf
-material:file=material.mat
+material:file=material_input1.mat
 #------------------------------------------
 # Simulation attributes:
 #------------------------------------------
@@ -29,14 +29,14 @@ sim:field-pulse-time=5.0E-12 !s
 sim:load-checkpoint=continue
 sim:program=field-pulse
 sim:integrator=llg-heun
-sim:save-checkpoint=end
+#sim:save-checkpoint=end
 #------------------------------------------
 # data output
 #------------------------------------------
-output:column-headers
+#output:column-headers
 output:real-time
 output:electron-temperature
 output:phonon-temperature
 output:applied-field-strength
-output:magnetisation
+output:magnetisation-length
 config:atoms

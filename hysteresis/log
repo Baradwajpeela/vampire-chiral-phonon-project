@@ -1,121 +1,181 @@
-26-09-2024 [15:43:56] Logfile opened
-26-09-2024 [15:43:56] Executable : vampire-serial
-26-09-2024 [15:43:56] Host name  : Cygnus:
-26-09-2024 [15:43:56] Directory  : /home/baradwaj/vampire-chiral-phonon-project/hysteresis
-26-09-2024 [15:43:56] Process ID : 12907
-26-09-2024 [15:43:56] Version    : 7.0.0
-26-09-2024 [15:43:56] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
-26-09-2024 [15:43:56] Opening main input file "input".
-26-09-2024 [15:43:56]    Loading text file input on root process
-26-09-2024 [15:43:56]    File successfully loaded on root process with 1312 characters and size 0.001312 [ 54.9299 ] MB/s
-26-09-2024 [15:43:56] Parsing system parameters from main input file.
-26-09-2024 [15:43:56] Opening material file "material.mat".
-26-09-2024 [15:43:56]    Loading text file material.mat on root process
-26-09-2024 [15:43:56]    File successfully loaded on root process with 797 characters and size 0.000797 [ 121.587 ] MB/s
-26-09-2024 [15:43:56] Parsing material file for parameters.
-26-09-2024 [15:43:56] Setting periodic boundary conditions in x,y directions
-26-09-2024 [15:43:56] Reading in unit cell data from disk...
-26-09-2024 [15:43:56]    Loading text file cgt.ucf on root process
-26-09-2024 [15:43:56]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 252.869 ] MB/s
-26-09-2024 [15:43:56] Reading data completed. Processing unit cell data...
-26-09-2024 [15:43:56] 	Processing data for 6 unit cell atoms...
-26-09-2024 [15:43:56] 	Processing unit cell atoms completed
-26-09-2024 [15:43:56] 	Processing data from 114 interactions...
-26-09-2024 [15:43:56] 	Processing unit cell interactions completed
-26-09-2024 [15:43:56] 	Verifying unit cell exchange interactions...
-26-09-2024 [15:43:56] Verifying unit cell exchange interactions completed
-26-09-2024 [15:43:56] 	Number of atoms read-in: 6
-26-09-2024 [15:43:56] 	Number of bilinear interactions read-in: 114
-26-09-2024 [15:43:56] 	Number of biquadratic interactions read-in: 0
-26-09-2024 [15:43:56] 	Exchange type: 
-26-09-2024 [15:43:56] 	Calculated interaction range: 2 Unit Cells
-26-09-2024 [15:43:56] Calculating alloy properties of system
-26-09-2024 [15:43:56] Determining atomic composition:
-26-09-2024 [15:43:56] Material 1 CGT makes up 100 % of all atoms ( 3400 atoms )
-26-09-2024 [15:43:56] Memory required for neighbourlist calculation:0.0288 MB
-26-09-2024 [15:43:56] Allocating memory for supercell array in neighbourlist calculation
-26-09-2024 [15:43:56] 	Allocating memory done
-26-09-2024 [15:43:56] Populating supercell array for neighbourlist calculation...
-26-09-2024 [15:43:56] 	Populating supercell array completed
-26-09-2024 [15:43:56] Memory required for neighbour list:0.5472 MB
-26-09-2024 [15:43:56] Generating neighbour list...
-26-09-2024 [15:43:56] 	Neighbour list calculation complete
-26-09-2024 [15:43:56] Deallocating supercell array for neighbour list calculation
-26-09-2024 [15:43:56] 	Supercell array deallocated
-26-09-2024 [15:43:56] Copying system data to optimised data structures.
-26-09-2024 [15:43:56] Number of atoms generated on rank 0: 3400
-26-09-2024 [15:43:56] Memory required for copying to performance array on rank 0: 0.5168 MB RAM
-26-09-2024 [15:43:56] Identifying surface atoms using global threshold value of 0
-26-09-2024 [15:43:56] 0 surface atoms found.
-26-09-2024 [15:43:56] Memory required for creation of 1D neighbour list on rank 0: 0.0544 MB RAM
-26-09-2024 [15:43:56] Initialising data structures for exchange calculation.
-26-09-2024 [15:43:56] Unrolled exchange template requires 0.000912MB RAM
-26-09-2024 [15:43:56] Number of atoms generated: 3400
-26-09-2024 [15:43:56] Initializing vampire modules
-26-09-2024 [15:43:56] Macrocell size = 10,10,10 Angstroms
-26-09-2024 [15:43:56] Macrocells in x,y,z: 7	7	12
-26-09-2024 [15:43:56] Total number of macrocells: 588
-26-09-2024 [15:43:56] Memory required for macrocell arrays: 0.04704 MB
-26-09-2024 [15:43:56] Number of local macrocells on rank 0: 539
-26-09-2024 [15:43:56] Initialising data structures for anisotropy calculation for 100 materials
-26-09-2024 [15:43:56] Initialising statistics module
-26-09-2024 [15:43:56] Flag:checkpoint_loaded_flag = 1
-26-09-2024 [15:43:56] Checkpoint file loaded at sim::time 50000.
-26-09-2024 [15:43:56] Starting Simulation with Program field-pulse...
-26-09-2024 [15:43:56] Initialising configuration output... done!
-26-09-2024 [15:43:56] Total coordinate data filesize: 0.1632 MB
-26-09-2024 [15:43:56] Total spin data filesize (per snapshot): 0.0816 MB
-26-09-2024 [15:43:56] Outputting atomic coordinate file to disk 0.0597429 GB/s in 0.00273171 s
-26-09-2024 [15:43:56] Outputting configuration file 00000050 to disk 0.0381564 GB/s in 0.00213857 s [ 0.00245396 s]
-26-09-2024 [15:43:57] Outputting configuration file 00000051 to disk 0.038236 GB/s in 0.00213411 s [ 0.00268169 s]
-26-09-2024 [15:43:57] Outputting configuration file 00000052 to disk 0.0470929 GB/s in 0.00173275 s [ 0.00193003 s]
-26-09-2024 [15:43:57] Outputting configuration file 00000053 to disk 0.0389165 GB/s in 0.0020968 s [ 0.00249519 s]
-26-09-2024 [15:43:57] Outputting configuration file 00000054 to disk 0.0136581 GB/s in 0.00597447 s [ 0.00622865 s]
-26-09-2024 [15:43:58] Outputting configuration file 00000055 to disk 0.0461952 GB/s in 0.00176642 s [ 0.00203304 s]
-26-09-2024 [15:43:58] Outputting configuration file 00000056 to disk 0.0459444 GB/s in 0.00177606 s [ 0.00200716 s]
-26-09-2024 [15:43:58] Outputting configuration file 00000057 to disk 0.0426784 GB/s in 0.00191197 s [ 0.0021911 s]
-26-09-2024 [15:43:58] Outputting configuration file 00000058 to disk 0.0471193 GB/s in 0.00173178 s [ 0.00200624 s]
-26-09-2024 [15:43:59] Outputting configuration file 00000059 to disk 0.0461005 GB/s in 0.00177005 s [ 0.00199348 s]
-26-09-2024 [15:43:59] Outputting configuration file 00000060 to disk 0.0430604 GB/s in 0.00189501 s [ 0.00211646 s]
-26-09-2024 [15:43:59] Outputting configuration file 00000061 to disk 0.0426606 GB/s in 0.00191277 s [ 0.00223816 s]
-26-09-2024 [15:44:00] Outputting configuration file 00000062 to disk 0.0447635 GB/s in 0.00182291 s [ 0.00209314 s]
-26-09-2024 [15:44:00] Outputting configuration file 00000063 to disk 0.0435391 GB/s in 0.00187418 s [ 0.00207327 s]
-26-09-2024 [15:44:00] Outputting configuration file 00000064 to disk 0.0442411 GB/s in 0.00184444 s [ 0.00207618 s]
-26-09-2024 [15:44:00] Outputting configuration file 00000065 to disk 0.0470996 GB/s in 0.0017325 s [ 0.00195054 s]
-26-09-2024 [15:44:01] Outputting configuration file 00000066 to disk 0.0367496 GB/s in 0.00222043 s [ 0.00274842 s]
-26-09-2024 [15:44:01] Outputting configuration file 00000067 to disk 0.047303 GB/s in 0.00172505 s [ 0.00193968 s]
-26-09-2024 [15:44:01] Outputting configuration file 00000068 to disk 0.0460823 GB/s in 0.00177075 s [ 0.00537638 s]
-26-09-2024 [15:44:01] Outputting configuration file 00000069 to disk 0.0403227 GB/s in 0.00202367 s [ 0.00227898 s]
-26-09-2024 [15:44:02] Outputting configuration file 00000070 to disk 0.0412453 GB/s in 0.00197841 s [ 0.00229578 s]
-26-09-2024 [15:44:02] Outputting configuration file 00000071 to disk 0.0370576 GB/s in 0.00220198 s [ 0.00251818 s]
-26-09-2024 [15:44:02] Outputting configuration file 00000072 to disk 0.0456297 GB/s in 0.00178831 s [ 0.00207531 s]
-26-09-2024 [15:44:02] Outputting configuration file 00000073 to disk 0.0445116 GB/s in 0.00183323 s [ 0.00203861 s]
-26-09-2024 [15:44:03] Outputting configuration file 00000074 to disk 0.0476707 GB/s in 0.00171175 s [ 0.00190209 s]
-26-09-2024 [15:44:03] Outputting configuration file 00000075 to disk 0.0440623 GB/s in 0.00185192 s [ 0.00210294 s]
-26-09-2024 [15:44:03] Outputting configuration file 00000076 to disk 0.0488869 GB/s in 0.00166916 s [ 0.00187624 s]
-26-09-2024 [15:44:03] Outputting configuration file 00000077 to disk 0.0457179 GB/s in 0.00178486 s [ 0.00203832 s]
-26-09-2024 [15:44:04] Outputting configuration file 00000078 to disk 0.0425434 GB/s in 0.00191804 s [ 0.00235194 s]
-26-09-2024 [15:44:04] Outputting configuration file 00000079 to disk 0.0403338 GB/s in 0.00202312 s [ 0.00233021 s]
-26-09-2024 [15:44:04] Outputting configuration file 00000080 to disk 0.0382767 GB/s in 0.00213185 s [ 0.00246392 s]
-26-09-2024 [15:44:04] Outputting configuration file 00000081 to disk 0.0350518 GB/s in 0.00232798 s [ 0.00260226 s]
-26-09-2024 [15:44:05] Outputting configuration file 00000082 to disk 0.0454356 GB/s in 0.00179595 s [ 0.00204415 s]
-26-09-2024 [15:44:05] Outputting configuration file 00000083 to disk 0.0458646 GB/s in 0.00177915 s [ 0.00201597 s]
-26-09-2024 [15:44:05] Outputting configuration file 00000084 to disk 0.0481423 GB/s in 0.00169498 s [ 0.00189554 s]
-26-09-2024 [15:44:05] Outputting configuration file 00000085 to disk 0.0449897 GB/s in 0.00181375 s [ 0.00202097 s]
-26-09-2024 [15:44:06] Outputting configuration file 00000086 to disk 0.0459296 GB/s in 0.00177663 s [ 0.00198194 s]
-26-09-2024 [15:44:06] Outputting configuration file 00000087 to disk 0.0456927 GB/s in 0.00178584 s [ 0.00198797 s]
-26-09-2024 [15:44:06] Outputting configuration file 00000088 to disk 0.0454114 GB/s in 0.00179691 s [ 0.00203903 s]
-26-09-2024 [15:44:07] Outputting configuration file 00000089 to disk 0.0440953 GB/s in 0.00185054 s [ 0.0021398 s]
-26-09-2024 [15:44:07] Outputting configuration file 00000090 to disk 0.04241 GB/s in 0.00192408 s [ 0.00214068 s]
-26-09-2024 [15:44:07] Outputting configuration file 00000091 to disk 0.0428948 GB/s in 0.00190233 s [ 0.00209158 s]
-26-09-2024 [15:44:07] Outputting configuration file 00000092 to disk 0.0473203 GB/s in 0.00172442 s [ 0.00190814 s]
-26-09-2024 [15:44:08] Outputting configuration file 00000093 to disk 0.0455757 GB/s in 0.00179043 s [ 0.00196848 s]
-26-09-2024 [15:44:08] Outputting configuration file 00000094 to disk 0.0201228 GB/s in 0.0040551 s [ 0.00447503 s]
-26-09-2024 [15:44:08] Outputting configuration file 00000095 to disk 0.0446484 GB/s in 0.00182761 s [ 0.00204103 s]
-26-09-2024 [15:44:08] Outputting configuration file 00000096 to disk 0.0324886 GB/s in 0.00251165 s [ 0.00282664 s]
-26-09-2024 [15:44:09] Outputting configuration file 00000097 to disk 0.0452422 GB/s in 0.00180363 s [ 0.00201439 s]
-26-09-2024 [15:44:09] Outputting configuration file 00000098 to disk 0.03974 GB/s in 0.00205335 s [ 0.00228368 s]
-26-09-2024 [15:44:09] Outputting configuration file 00000099 to disk 0.0402543 GB/s in 0.00202712 s [ 0.00235425 s]
-26-09-2024 [15:44:09] Simulation run time [s]: 13.1402
-26-09-2024 [15:44:09] Checkpoint file written to disk.
-26-09-2024 [15:44:09] Simulation ended gracefully.
+26-09-2024 [16:11:05] Logfile opened
+26-09-2024 [16:11:05] Executable : vampire-serial
+26-09-2024 [16:11:05] Host name  : Cygnus:
+26-09-2024 [16:11:05] Directory  : /home/baradwaj/vampire-chiral-phonon-project/hysteresis
+26-09-2024 [16:11:05] Process ID : 13106
+26-09-2024 [16:11:05] Version    : 7.0.0
+26-09-2024 [16:11:05] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
+26-09-2024 [16:11:05] Opening main input file "input".
+26-09-2024 [16:11:05]    Loading text file input on root process
+26-09-2024 [16:11:05]    File successfully loaded on root process with 1276 characters and size 0.001276 [ 172.06 ] MB/s
+26-09-2024 [16:11:05] Parsing system parameters from main input file.
+26-09-2024 [16:11:05] Opening material file "material_input2.mat".
+26-09-2024 [16:11:05]    Loading text file material_input2.mat on root process
+26-09-2024 [16:11:05]    File successfully loaded on root process with 799 characters and size 0.000799 [ 195.307 ] MB/s
+26-09-2024 [16:11:05] Parsing material file for parameters.
+26-09-2024 [16:11:05] Setting periodic boundary conditions in x,y directions
+26-09-2024 [16:11:05] Reading in unit cell data from disk...
+26-09-2024 [16:11:05]    Loading text file cgt.ucf on root process
+26-09-2024 [16:11:05]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 286.74 ] MB/s
+26-09-2024 [16:11:05] Reading data completed. Processing unit cell data...
+26-09-2024 [16:11:05] 	Processing data for 6 unit cell atoms...
+26-09-2024 [16:11:05] 	Processing unit cell atoms completed
+26-09-2024 [16:11:05] 	Processing data from 114 interactions...
+26-09-2024 [16:11:05] 	Processing unit cell interactions completed
+26-09-2024 [16:11:05] 	Verifying unit cell exchange interactions...
+26-09-2024 [16:11:05] Verifying unit cell exchange interactions completed
+26-09-2024 [16:11:05] 	Number of atoms read-in: 6
+26-09-2024 [16:11:05] 	Number of bilinear interactions read-in: 114
+26-09-2024 [16:11:05] 	Number of biquadratic interactions read-in: 0
+26-09-2024 [16:11:05] 	Exchange type: 
+26-09-2024 [16:11:05] 	Calculated interaction range: 2 Unit Cells
+26-09-2024 [16:11:05] Calculating alloy properties of system
+26-09-2024 [16:11:05] Determining atomic composition:
+26-09-2024 [16:11:05] Material 1 CGT makes up 100 % of all atoms ( 3400 atoms )
+26-09-2024 [16:11:05] Memory required for neighbourlist calculation:0.0288 MB
+26-09-2024 [16:11:05] Allocating memory for supercell array in neighbourlist calculation
+26-09-2024 [16:11:05] 	Allocating memory done
+26-09-2024 [16:11:05] Populating supercell array for neighbourlist calculation...
+26-09-2024 [16:11:05] 	Populating supercell array completed
+26-09-2024 [16:11:05] Memory required for neighbour list:0.5472 MB
+26-09-2024 [16:11:05] Generating neighbour list...
+26-09-2024 [16:11:05] 	Neighbour list calculation complete
+26-09-2024 [16:11:05] Deallocating supercell array for neighbour list calculation
+26-09-2024 [16:11:05] 	Supercell array deallocated
+26-09-2024 [16:11:05] Copying system data to optimised data structures.
+26-09-2024 [16:11:05] Number of atoms generated on rank 0: 3400
+26-09-2024 [16:11:05] Memory required for copying to performance array on rank 0: 0.5168 MB RAM
+26-09-2024 [16:11:05] Identifying surface atoms using global threshold value of 0
+26-09-2024 [16:11:05] 0 surface atoms found.
+26-09-2024 [16:11:05] Memory required for creation of 1D neighbour list on rank 0: 0.0544 MB RAM
+26-09-2024 [16:11:05] Initialising data structures for exchange calculation.
+26-09-2024 [16:11:05] Unrolled exchange template requires 0.000912MB RAM
+26-09-2024 [16:11:05] Number of atoms generated: 3400
+26-09-2024 [16:11:05] Initializing vampire modules
+26-09-2024 [16:11:05] Macrocell size = 10,10,10 Angstroms
+26-09-2024 [16:11:05] Macrocells in x,y,z: 7	7	12
+26-09-2024 [16:11:05] Total number of macrocells: 588
+26-09-2024 [16:11:05] Memory required for macrocell arrays: 0.04704 MB
+26-09-2024 [16:11:05] Number of local macrocells on rank 0: 539
+26-09-2024 [16:11:05] Initialising data structures for anisotropy calculation for 100 materials
+26-09-2024 [16:11:05] Initialising statistics module
+26-09-2024 [16:11:05] Flag:checkpoint_loaded_flag = 1
+26-09-2024 [16:11:05] Checkpoint file loaded at sim::time 50000.
+26-09-2024 [16:11:05] Starting Simulation with Program Time-Series...
+26-09-2024 [16:11:05] Initialising configuration output... done!
+26-09-2024 [16:11:05] Total coordinate data filesize: 0.1632 MB
+26-09-2024 [16:11:05] Total spin data filesize (per snapshot): 0.0816 MB
+26-09-2024 [16:11:05] Outputting atomic coordinate file to disk 0.0728026 GB/s in 0.00224168 s
+26-09-2024 [16:11:05] Outputting configuration file 00000050 to disk 0.0469586 GB/s in 0.0017377 s [ 0.00186384 s]
+26-09-2024 [16:11:06] Outputting configuration file 00000051 to disk 0.0493872 GB/s in 0.00165225 s [ 0.00187794 s]
+26-09-2024 [16:11:06] Outputting configuration file 00000052 to disk 0.048557 GB/s in 0.0016805 s [ 0.00189568 s]
+26-09-2024 [16:11:06] Outputting configuration file 00000053 to disk 0.0468211 GB/s in 0.0017428 s [ 0.00196199 s]
+26-09-2024 [16:11:06] Outputting configuration file 00000054 to disk 0.0456212 GB/s in 0.00178864 s [ 0.0020642 s]
+26-09-2024 [16:11:07] Outputting configuration file 00000055 to disk 0.0496353 GB/s in 0.00164399 s [ 0.00186841 s]
+26-09-2024 [16:11:07] Outputting configuration file 00000056 to disk 0.0501929 GB/s in 0.00162573 s [ 0.0018192 s]
+26-09-2024 [16:11:07] Outputting configuration file 00000057 to disk 0.0494482 GB/s in 0.00165021 s [ 0.00186049 s]
+26-09-2024 [16:11:07] Outputting configuration file 00000058 to disk 0.0478386 GB/s in 0.00170573 s [ 0.00190741 s]
+26-09-2024 [16:11:08] Outputting configuration file 00000059 to disk 0.047575 GB/s in 0.00171519 s [ 0.00198957 s]
+26-09-2024 [16:11:08] Outputting configuration file 00000060 to disk 0.0469497 GB/s in 0.00173803 s [ 0.00195994 s]
+26-09-2024 [16:11:08] Outputting configuration file 00000061 to disk 0.0331939 GB/s in 0.00245829 s [ 0.00273924 s]
+26-09-2024 [16:11:08] Outputting configuration file 00000062 to disk 0.0458241 GB/s in 0.00178072 s [ 0.00201422 s]
+26-09-2024 [16:11:09] Outputting configuration file 00000063 to disk 0.0493486 GB/s in 0.00165354 s [ 0.00184455 s]
+26-09-2024 [16:11:09] Outputting configuration file 00000064 to disk 0.0455833 GB/s in 0.00179013 s [ 0.00200248 s]
+26-09-2024 [16:11:09] Outputting configuration file 00000065 to disk 0.0116479 GB/s in 0.00700554 s [ 0.00726715 s]
+26-09-2024 [16:11:09] Outputting configuration file 00000066 to disk 0.0465784 GB/s in 0.00175189 s [ 0.0019596 s]
+26-09-2024 [16:11:10] Outputting configuration file 00000067 to disk 0.0330472 GB/s in 0.00246919 s [ 0.00275544 s]
+26-09-2024 [16:11:10] Outputting configuration file 00000068 to disk 0.0455542 GB/s in 0.00179127 s [ 0.00199945 s]
+26-09-2024 [16:11:10] Outputting configuration file 00000069 to disk 0.049418 GB/s in 0.00165122 s [ 0.00185204 s]
+26-09-2024 [16:11:10] Outputting configuration file 00000070 to disk 0.0483593 GB/s in 0.00168737 s [ 0.00192784 s]
+26-09-2024 [16:11:11] Outputting configuration file 00000071 to disk 0.0468737 GB/s in 0.00174085 s [ 0.00195571 s]
+26-09-2024 [16:11:11] Outputting configuration file 00000072 to disk 0.0489334 GB/s in 0.00166757 s [ 0.00186213 s]
+26-09-2024 [16:11:11] Outputting configuration file 00000073 to disk 0.0454924 GB/s in 0.00179371 s [ 0.00200815 s]
+26-09-2024 [16:11:11] Outputting configuration file 00000074 to disk 0.0373238 GB/s in 0.00218627 s [ 0.00243642 s]
+26-09-2024 [16:11:12] Outputting configuration file 00000075 to disk 0.0490606 GB/s in 0.00166325 s [ 0.00186306 s]
+26-09-2024 [16:11:12] Outputting configuration file 00000076 to disk 0.0481842 GB/s in 0.0016935 s [ 0.00189784 s]
+26-09-2024 [16:11:12] Outputting configuration file 00000077 to disk 0.048817 GB/s in 0.00167155 s [ 0.00188383 s]
+26-09-2024 [16:11:12] Outputting configuration file 00000078 to disk 0.0497851 GB/s in 0.00163904 s [ 0.00184988 s]
+26-09-2024 [16:11:13] Outputting configuration file 00000079 to disk 0.0229823 GB/s in 0.00355056 s [ 0.00415527 s]
+26-09-2024 [16:11:13] Outputting configuration file 00000080 to disk 0.0393608 GB/s in 0.00207313 s [ 0.00234378 s]
+26-09-2024 [16:11:13] Outputting configuration file 00000081 to disk 0.0449226 GB/s in 0.00181646 s [ 0.00203552 s]
+26-09-2024 [16:11:13] Outputting configuration file 00000082 to disk 0.0476929 GB/s in 0.00171095 s [ 0.00192259 s]
+26-09-2024 [16:11:14] Outputting configuration file 00000083 to disk 0.039854 GB/s in 0.00204747 s [ 0.00244901 s]
+26-09-2024 [16:11:14] Outputting configuration file 00000084 to disk 0.0450666 GB/s in 0.00181065 s [ 0.0020275 s]
+26-09-2024 [16:11:14] Outputting configuration file 00000085 to disk 0.04276 GB/s in 0.00190833 s [ 0.00227345 s]
+26-09-2024 [16:11:14] Outputting configuration file 00000086 to disk 0.0457053 GB/s in 0.00178535 s [ 0.00200318 s]
+26-09-2024 [16:11:15] Outputting configuration file 00000087 to disk 0.0435026 GB/s in 0.00187575 s [ 0.00210387 s]
+26-09-2024 [16:11:15] Outputting configuration file 00000088 to disk 0.0459254 GB/s in 0.0017768 s [ 0.00197996 s]
+26-09-2024 [16:11:15] Outputting configuration file 00000089 to disk 0.0458996 GB/s in 0.00177779 s [ 0.00203603 s]
+26-09-2024 [16:11:15] Outputting configuration file 00000090 to disk 0.0465183 GB/s in 0.00175415 s [ 0.00196778 s]
+26-09-2024 [16:11:16] Outputting configuration file 00000091 to disk 0.0470173 GB/s in 0.00173553 s [ 0.00196038 s]
+26-09-2024 [16:11:16] Outputting configuration file 00000092 to disk 0.044886 GB/s in 0.00181794 s [ 0.00202527 s]
+26-09-2024 [16:11:16] Outputting configuration file 00000093 to disk 0.0471526 GB/s in 0.00173055 s [ 0.00192323 s]
+26-09-2024 [16:11:16] Outputting configuration file 00000094 to disk 0.0487736 GB/s in 0.00167304 s [ 0.00186782 s]
+26-09-2024 [16:11:17] Outputting configuration file 00000095 to disk 0.0425429 GB/s in 0.00191807 s [ 0.00215654 s]
+26-09-2024 [16:11:17] Outputting configuration file 00000096 to disk 0.0461554 GB/s in 0.00176794 s [ 0.00198924 s]
+26-09-2024 [16:11:17] Outputting configuration file 00000097 to disk 0.0484163 GB/s in 0.00168538 s [ 0.00191254 s]
+26-09-2024 [16:11:18] Outputting configuration file 00000098 to disk 0.0381933 GB/s in 0.0021365 s [ 0.00236468 s]
+26-09-2024 [16:11:18] Outputting configuration file 00000099 to disk 0.0492915 GB/s in 0.00165546 s [ 0.00186311 s]
+26-09-2024 [16:11:18] Outputting configuration file 00000100 to disk 0.0434667 GB/s in 0.0018773 s [ 0.00215475 s]
+26-09-2024 [16:11:18] Outputting configuration file 00000101 to disk 0.0464282 GB/s in 0.00175755 s [ 0.00196696 s]
+26-09-2024 [16:11:19] Outputting configuration file 00000102 to disk 0.0490718 GB/s in 0.00166287 s [ 0.00189364 s]
+26-09-2024 [16:11:19] Outputting configuration file 00000103 to disk 0.044938 GB/s in 0.00181584 s [ 0.00207889 s]
+26-09-2024 [16:11:19] Outputting configuration file 00000104 to disk 0.0430065 GB/s in 0.00189739 s [ 0.00214571 s]
+26-09-2024 [16:11:19] Outputting configuration file 00000105 to disk 0.0362161 GB/s in 0.00225314 s [ 0.0025017 s]
+26-09-2024 [16:11:20] Outputting configuration file 00000106 to disk 0.0451196 GB/s in 0.00180853 s [ 0.0020359 s]
+26-09-2024 [16:11:20] Outputting configuration file 00000107 to disk 0.0456735 GB/s in 0.0017866 s [ 0.0020196 s]
+26-09-2024 [16:11:20] Outputting configuration file 00000108 to disk 0.0469833 GB/s in 0.00173679 s [ 0.00194496 s]
+26-09-2024 [16:11:20] Outputting configuration file 00000109 to disk 0.0462108 GB/s in 0.00176582 s [ 0.00199822 s]
+26-09-2024 [16:11:21] Outputting configuration file 00000110 to disk 0.0191549 GB/s in 0.00426001 s [ 0.00494814 s]
+26-09-2024 [16:11:21] Outputting configuration file 00000111 to disk 0.0445885 GB/s in 0.00183007 s [ 0.00207459 s]
+26-09-2024 [16:11:21] Outputting configuration file 00000112 to disk 0.0282789 GB/s in 0.00288554 s [ 0.00327281 s]
+26-09-2024 [16:11:21] Outputting configuration file 00000113 to disk 0.0464772 GB/s in 0.0017557 s [ 0.00196263 s]
+26-09-2024 [16:11:22] Outputting configuration file 00000114 to disk 0.0482288 GB/s in 0.00169194 s [ 0.00190292 s]
+26-09-2024 [16:11:22] Outputting configuration file 00000115 to disk 0.00672587 GB/s in 0.0121323 s [ 0.0126317 s]
+26-09-2024 [16:11:22] Outputting configuration file 00000116 to disk 0.0401704 GB/s in 0.00203134 s [ 0.00232821 s]
+26-09-2024 [16:11:23] Outputting configuration file 00000117 to disk 0.0489583 GB/s in 0.00166673 s [ 0.00188463 s]
+26-09-2024 [16:11:23] Outputting configuration file 00000118 to disk 0.0355071 GB/s in 0.00229814 s [ 0.0025516 s]
+26-09-2024 [16:11:23] Outputting configuration file 00000119 to disk 0.0182528 GB/s in 0.00447055 s [ 0.00484665 s]
+26-09-2024 [16:11:23] Outputting configuration file 00000120 to disk 0.0473363 GB/s in 0.00172383 s [ 0.00192767 s]
+26-09-2024 [16:11:24] Outputting configuration file 00000121 to disk 0.0480084 GB/s in 0.0016997 s [ 0.00194192 s]
+26-09-2024 [16:11:24] Outputting configuration file 00000122 to disk 0.0465725 GB/s in 0.00175211 s [ 0.00197601 s]
+26-09-2024 [16:11:24] Outputting configuration file 00000123 to disk 0.042521 GB/s in 0.00191905 s [ 0.00218407 s]
+26-09-2024 [16:11:24] Outputting configuration file 00000124 to disk 0.0500888 GB/s in 0.00162911 s [ 0.00183133 s]
+26-09-2024 [16:11:25] Outputting configuration file 00000125 to disk 0.0476642 GB/s in 0.00171198 s [ 0.00200773 s]
+26-09-2024 [16:11:25] Outputting configuration file 00000126 to disk 0.0479883 GB/s in 0.00170041 s [ 0.00191007 s]
+26-09-2024 [16:11:25] Outputting configuration file 00000127 to disk 0.0489839 GB/s in 0.00166585 s [ 0.0019031 s]
+26-09-2024 [16:11:25] Outputting configuration file 00000128 to disk 0.0464795 GB/s in 0.00175561 s [ 0.00199763 s]
+26-09-2024 [16:11:26] Outputting configuration file 00000129 to disk 0.0459131 GB/s in 0.00177727 s [ 0.00201558 s]
+26-09-2024 [16:11:26] Outputting configuration file 00000130 to disk 0.0443223 GB/s in 0.00184106 s [ 0.00205468 s]
+26-09-2024 [16:11:26] Outputting configuration file 00000131 to disk 0.0476634 GB/s in 0.001712 s [ 0.00192553 s]
+26-09-2024 [16:11:26] Outputting configuration file 00000132 to disk 0.0464006 GB/s in 0.0017586 s [ 0.00197065 s]
+26-09-2024 [16:11:27] Outputting configuration file 00000133 to disk 0.0453149 GB/s in 0.00180073 s [ 0.00206018 s]
+26-09-2024 [16:11:27] Outputting configuration file 00000134 to disk 0.0476985 GB/s in 0.00171075 s [ 0.00192314 s]
+26-09-2024 [16:11:27] Outputting configuration file 00000135 to disk 0.0495589 GB/s in 0.00164653 s [ 0.00188106 s]
+26-09-2024 [16:11:27] Outputting configuration file 00000136 to disk 0.0390698 GB/s in 0.00208857 s [ 0.00229421 s]
+26-09-2024 [16:11:28] Outputting configuration file 00000137 to disk 0.0494483 GB/s in 0.00165021 s [ 0.0020143 s]
+26-09-2024 [16:11:28] Outputting configuration file 00000138 to disk 0.0348259 GB/s in 0.00234309 s [ 0.00260897 s]
+26-09-2024 [16:11:28] Outputting configuration file 00000139 to disk 0.0487283 GB/s in 0.00167459 s [ 0.00189796 s]
+26-09-2024 [16:11:28] Outputting configuration file 00000140 to disk 0.0490048 GB/s in 0.00166514 s [ 0.00188355 s]
+26-09-2024 [16:11:29] Outputting configuration file 00000141 to disk 0.0495098 GB/s in 0.00164816 s [ 0.00187097 s]
+26-09-2024 [16:11:29] Outputting configuration file 00000142 to disk 0.0495557 GB/s in 0.00164663 s [ 0.00187945 s]
+26-09-2024 [16:11:29] Outputting configuration file 00000143 to disk 0.0122078 GB/s in 0.00668423 s [ 0.00691786 s]
+26-09-2024 [16:11:29] Outputting configuration file 00000144 to disk 0.0485984 GB/s in 0.00167907 s [ 0.00189799 s]
+26-09-2024 [16:11:30] Outputting configuration file 00000145 to disk 0.0496276 GB/s in 0.00164425 s [ 0.00186791 s]
+26-09-2024 [16:11:30] Outputting configuration file 00000146 to disk 0.0435521 GB/s in 0.00187362 s [ 0.00207384 s]
+26-09-2024 [16:11:30] Outputting configuration file 00000147 to disk 0.049232 GB/s in 0.00165746 s [ 0.00187814 s]
+26-09-2024 [16:11:30] Outputting configuration file 00000148 to disk 0.0451913 GB/s in 0.00180566 s [ 0.00203819 s]
+26-09-2024 [16:11:31] Outputting configuration file 00000149 to disk 0.0473657 GB/s in 0.00172276 s [ 0.00199395 s]
+26-09-2024 [16:11:31] Outputting configuration file 00000150 to disk 0.0398264 GB/s in 0.00204889 s [ 0.00229452 s]
+26-09-2024 [16:11:31] Outputting configuration file 00000151 to disk 0.0494708 GB/s in 0.00164946 s [ 0.00186632 s]
+26-09-2024 [16:11:31] Outputting configuration file 00000152 to disk 0.0465086 GB/s in 0.00175451 s [ 0.00195457 s]
+26-09-2024 [16:11:32] Outputting configuration file 00000153 to disk 0.0494111 GB/s in 0.00165145 s [ 0.0018515 s]
+26-09-2024 [16:11:32] Outputting configuration file 00000154 to disk 0.0478956 GB/s in 0.00170371 s [ 0.00190282 s]
+26-09-2024 [16:11:32] Outputting configuration file 00000155 to disk 0.0492284 GB/s in 0.00165758 s [ 0.00191299 s]
+26-09-2024 [16:11:32] Outputting configuration file 00000156 to disk 0.0475509 GB/s in 0.00171606 s [ 0.00196463 s]
+26-09-2024 [16:11:33] Outputting configuration file 00000157 to disk 0.0496206 GB/s in 0.00164448 s [ 0.00186183 s]
+26-09-2024 [16:11:33] Outputting configuration file 00000158 to disk 0.0465884 GB/s in 0.00175151 s [ 0.00196288 s]
+26-09-2024 [16:11:33] Outputting configuration file 00000159 to disk 0.0334492 GB/s in 0.00243952 s [ 0.00269671 s]
+26-09-2024 [16:11:33] Outputting configuration file 00000160 to disk 0.0459804 GB/s in 0.00177467 s [ 0.00201539 s]
+26-09-2024 [16:11:33] Simulation run time [s]: 27.9021
+26-09-2024 [16:11:33] Simulation ended gracefully.
