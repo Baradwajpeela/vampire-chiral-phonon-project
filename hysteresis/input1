@@ -29,7 +29,7 @@ sim:field-pulse-time=5.0E-12 !s
 sim:load-checkpoint=continue
 sim:program=field-pulse
 sim:integrator=llg-heun
-#sim:save-checkpoint=end
+sim:save-checkpoint=end
 #------------------------------------------
 # data output
 #------------------------------------------
