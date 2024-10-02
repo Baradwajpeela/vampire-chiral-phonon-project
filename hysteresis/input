@@ -1,0 +1,33 @@
+# System dimensions
+dimensions:system-size-x=6.83 !nm
+dimensions:system-size-y=6.83 !nm
+dimensions:system-size-z=11.6 !nm
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+#create:periodic-boundaries-z
+#---------------------------------------------------
+# Material files
+#---------------------------------------------------
+material:unit-cell-file=cgt.ucf
+material:file=material.mat
+#------------------------------------------
+# Simulation attributes:
+#------------------------------------------
+sim:temperature=10
+sim:preconditioning-steps=10000
+sim:equilibration-time-steps=10000
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program=hysteresis-loop
+sim:integrator=llg-heun
+#------------------------------------------
+# data output
+#------------------------------------------
+output:column-headers
+output:applied-field-strength
+output:magnetisation
+config:atoms
