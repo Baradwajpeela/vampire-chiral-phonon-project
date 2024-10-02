@@ -1,12 +1,12 @@
 #------------------------------------------------------
 # Atomistic spin configuration file for vampire v5+
 #------------------------------------------------------
-# Date: Thu Sep 19 16:04:00 2024
+# Date: Wed Oct  2 15:31:37 2024
 #------------------------------------------------------
-Time: 5e-16
-Field: 0	0	2
-Temperature: 10
-Magnetisation: 0.0306794	-0.0025919	0.999526
+Time: 1.5e-11
+Field: 0	0	0
+Temperature: 0
+Magnetisation: 0	0	1
 #------------------------------------------------------
 Number of spin files: 1
 spins-00000000.data

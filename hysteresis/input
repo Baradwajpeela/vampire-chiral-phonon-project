@@ -16,18 +16,22 @@ material:file=material.mat
 #------------------------------------------
 # Simulation attributes:
 #------------------------------------------
-sim:temperature=10
-sim:preconditioning-steps=10000
-sim:equilibration-time-steps=10000
+sim:loop-time-steps=1500
+sim:time-step=1.0e-15
+sim:temperature=33
+sim:applied-field-strength-increment=0.015 !T
+sim:applied-field-unit-vector=0,0.001,0.999
+sim:maximum-applied-field-strength = 2 !T
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
 sim:program=hysteresis-loop
 sim:integrator=llg-heun
+
 #------------------------------------------
 # data output
 #------------------------------------------
 output:column-headers
 output:applied-field-strength
-output:magnetisation
+output:material-magnetisation
 config:atoms

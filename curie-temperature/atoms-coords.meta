@@ -1,16 +1,14 @@
 #----------------------------------------------------------
 # Atomistic coordinates configuration file for vampire V5+
 #----------------------------------------------------------
-# Date: Thu Sep 19 16:04:00 2024
+# Date: Wed Oct  2 15:31:37 2024
 #--------------------------------------------
 Format: text
 #--------------------------------------------
-Number of atoms: 3200
+Number of atoms: 11016
 #--------------------------------------------
-Number of materials: 3
+Number of materials: 1
 0	3.87	Cr 	Cr
-1	1.72	Ge 	Ge
-2	1.72	Te 	Te
 #--------------------------------------------
 Number of coord files: 1
 atoms-coords.data

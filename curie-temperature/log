@@ -1,17 +1,73 @@
-20-09-2024 [13:44:14] Logfile opened
-20-09-2024 [13:44:14] Executable : vampire-serial
-20-09-2024 [13:44:14] Host name  : Cygnus:
-20-09-2024 [13:44:14] Directory  : /home/baradwaj/vampire-chiral-phonon-project/curie-temperature
-20-09-2024 [13:44:14] Process ID : 6614
-20-09-2024 [13:44:14] Version    : 7.0.0
-20-09-2024 [13:44:14] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
-20-09-2024 [13:44:14] Opening main input file "input".
-20-09-2024 [13:44:14]    Loading text file input on root process
-20-09-2024 [13:44:14]    File successfully loaded on root process with 1480 characters and size 0.00148 [ 77.5153 ] MB/s
-20-09-2024 [13:44:14] Parsing system parameters from main input file.
-20-09-2024 [13:44:14] Opening material file "material.mat".
-20-09-2024 [13:44:14]    Loading text file material.mat on root process
-20-09-2024 [13:44:14]    File successfully loaded on root process with 1150 characters and size 0.00115 [ 129.402 ] MB/s
-20-09-2024 [13:44:14] Parsing material file for parameters.
-20-09-2024 [13:44:14] Error - Unknown control statement 'material[1]:couple-to-phononic-temperature = on on line 17 of material file 'material.mat'
-20-09-2024 [13:44:14] Fatal error: Aborting program.
+02-10-2024 [15:31:20] Logfile opened
+02-10-2024 [15:31:20] Executable : vampire-serial
+02-10-2024 [15:31:20] Host name  : Cygnus:
+02-10-2024 [15:31:20] Directory  : /home/baradwaj/vampire-chiral-phonon-project/curie-temperature
+02-10-2024 [15:31:20] Process ID : 3227
+02-10-2024 [15:31:20] Version    : 7.0.0
+02-10-2024 [15:31:20] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
+02-10-2024 [15:31:20] Opening main input file "input".
+02-10-2024 [15:31:20]    Loading text file input on root process
+02-10-2024 [15:31:20]    File successfully loaded on root process with 1180 characters and size 0.00118 [ 89.3466 ] MB/s
+02-10-2024 [15:31:20] Parsing system parameters from main input file.
+02-10-2024 [15:31:20] Opening material file "material.mat".
+02-10-2024 [15:31:20]    Loading text file material.mat on root process
+02-10-2024 [15:31:20]    File successfully loaded on root process with 1032 characters and size 0.001032 [ 148.233 ] MB/s
+02-10-2024 [15:31:20] Parsing material file for parameters.
+02-10-2024 [15:31:20] Setting periodic boundary conditions in x,y directions
+02-10-2024 [15:31:20] Reading in unit cell data from disk...
+02-10-2024 [15:31:20]    Loading text file cgt.ucf on root process
+02-10-2024 [15:31:20]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 266.62 ] MB/s
+02-10-2024 [15:31:20] Reading data completed. Processing unit cell data...
+02-10-2024 [15:31:20] 	Processing data for 6 unit cell atoms...
+02-10-2024 [15:31:20] 	Processing unit cell atoms completed
+02-10-2024 [15:31:20] 	Processing data from 114 interactions...
+02-10-2024 [15:31:20] 	Processing unit cell interactions completed
+02-10-2024 [15:31:20] 	Verifying unit cell exchange interactions...
+02-10-2024 [15:31:20] Verifying unit cell exchange interactions completed
+02-10-2024 [15:31:20] 	Number of atoms read-in: 6
+02-10-2024 [15:31:20] 	Number of bilinear interactions read-in: 114
+02-10-2024 [15:31:20] 	Number of biquadratic interactions read-in: 0
+02-10-2024 [15:31:20] 	Exchange type: 
+02-10-2024 [15:31:20] 	Calculated interaction range: 2 Unit Cells
+02-10-2024 [15:31:20] Calculating alloy properties of system
+02-10-2024 [15:31:20] Determining atomic composition:
+02-10-2024 [15:31:20] Material 1 Cr makes up 100 % of all atoms ( 11016 atoms )
+02-10-2024 [15:31:20] Memory required for neighbourlist calculation:0.093312 MB
+02-10-2024 [15:31:20] Allocating memory for supercell array in neighbourlist calculation
+02-10-2024 [15:31:20] 	Allocating memory done
+02-10-2024 [15:31:20] Populating supercell array for neighbourlist calculation...
+02-10-2024 [15:31:20] 	Populating supercell array completed
+02-10-2024 [15:31:20] Memory required for neighbour list:1.77293 MB
+02-10-2024 [15:31:20] Generating neighbour list...
+02-10-2024 [15:31:20] 	Neighbour list calculation complete
+02-10-2024 [15:31:20] Deallocating supercell array for neighbour list calculation
+02-10-2024 [15:31:20] 	Supercell array deallocated
+02-10-2024 [15:31:20] Copying system data to optimised data structures.
+02-10-2024 [15:31:20] Number of atoms generated on rank 0: 11016
+02-10-2024 [15:31:20] Memory required for copying to performance array on rank 0: 1.67443 MB RAM
+02-10-2024 [15:31:20] Identifying surface atoms using global threshold value of 0
+02-10-2024 [15:31:20] 0 surface atoms found.
+02-10-2024 [15:31:20] Memory required for creation of 1D neighbour list on rank 0: 0.176256 MB RAM
+02-10-2024 [15:31:20] Initialising data structures for exchange calculation.
+02-10-2024 [15:31:20] Unrolled exchange template requires 0.000912MB RAM
+02-10-2024 [15:31:20] Number of atoms generated: 11016
+02-10-2024 [15:31:20] Initializing vampire modules
+02-10-2024 [15:31:20] Macrocell size = 10,10,10 Angstroms
+02-10-2024 [15:31:20] Macrocells in x,y,z: 13	13	12
+02-10-2024 [15:31:20] Total number of macrocells: 2028
+02-10-2024 [15:31:20] Memory required for macrocell arrays: 0.16224 MB
+02-10-2024 [15:31:20] Number of local macrocells on rank 0: 1734
+02-10-2024 [15:31:20] Initialising data structures for anisotropy calculation for 100 materials
+02-10-2024 [15:31:20] Initialising statistics module
+02-10-2024 [15:31:20] Starting Simulation with Program Curie-Temperature...
+02-10-2024 [15:31:37] Initialising configuration output... done!
+02-10-2024 [15:31:37] Total coordinate data filesize: 0.528768 MB
+02-10-2024 [15:31:37] Total spin data filesize (per snapshot): 0.264384 MB
+02-10-2024 [15:31:37] Outputting atomic coordinate file to disk 0.0690532 GB/s in 0.0076574 s
+02-10-2024 [15:31:37] Outputting configuration file 00000000 to disk 0.0632081 GB/s in 0.00418276 s [ 0.00435259 s]
+02-10-2024 [15:39:20] Simulation run time [s]: 480.369
+02-10-2024 [15:39:20] Monte Carlo statistics:
+02-10-2024 [15:39:20] 	Total moves: 4.29624e+09
+02-10-2024 [15:39:20] 	59.1857% Accepted
+02-10-2024 [15:39:20] 	40.8143% Rejected
+02-10-2024 [15:39:20] Simulation ended gracefully.

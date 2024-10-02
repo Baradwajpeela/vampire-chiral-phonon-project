@@ -1,9 +1,12 @@
 set terminal wxt
-set y2tics 10,5,40
-set ytics nomirror
-set xlabel "time in picoseconds {/Symbol d} t"
-set ylabel "|m|"
-set title "Magnetisation-length vs time"
-set xrange [5:7.5]
-set y2range [10:40]
-plot "output" u ($1*1e12):4 w l axis x1y1 title "|M|", "output" u ($1*1e12):2 axis x1y2 w l title "Temperature"
+set grid 
+set mouse
+set xlabel "Temperatrue"
+set ylabel "|M|"
+set title "Magnetisation-length vs temperature"
+Tc= 70
+beta =0.4
+m(x)=x<Tc? (1-(x/Tc))**beta:0.0
+fit m(x) "output" u 1:2 via Tc,beta
+plot "output" u 1:2 w p, m(x) w l
+set yrange [0:1]
