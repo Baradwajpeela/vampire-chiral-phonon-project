@@ -1,6 +1,6 @@
 # System dimensions
-dimensions:system-size-x=6.83 !nm
-dimensions:system-size-y=6.83 !nm
+dimensions:system-size-x=13 !nm
+dimensions:system-size-y=13 !nm
 dimensions:system-size-z=11.6 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -19,9 +19,9 @@ material:file=material.mat
 sim:loop-time-steps=1500
 sim:time-step=1.0e-15
 sim:temperature=33
-sim:applied-field-strength-increment=0.015 !T
+sim:applied-field-strength-increment=0.0015 !T
 sim:applied-field-unit-vector=0,0.001,0.999
-sim:maximum-applied-field-strength = 2 !T
+sim:maximum-applied-field-strength = 0.1 !T
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
@@ -32,6 +32,7 @@ sim:integrator=llg-heun
 # data output
 #------------------------------------------
 output:column-headers
+output:real-time
 output:applied-field-strength
 output:material-magnetisation
 config:atoms

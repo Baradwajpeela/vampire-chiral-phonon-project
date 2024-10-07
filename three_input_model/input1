@@ -1,6 +1,6 @@
 # System dimensions
-dimensions:system-size-x=6.83 !nm
-dimensions:system-size-y=6.83 !nm
+dimensions:system-size-x=26 !nm
+dimensions:system-size-y=26 !nm
 dimensions:system-size-z=11.6 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -17,12 +17,12 @@ material:file=material_input1.mat
 # Simulation attributes:
 #------------------------------------------
 sim:temperature = 33.5879
-sim:total-time-steps = 12000
+sim:total-time-steps = 120000
 sim:time-steps-increment = 1
-sim:time-step = 5.0E-16
-sim:applied-field-unit-vector=0,0,1
-sim:applied-field-strength = 0.001 !T
-sim:field-pulse-time = 2.0E-12 !s
+sim:time-step = 1E-15
+sim:applied-field-unit-vector=0,0.001,0.999
+sim:applied-field-strength = -1 !T
+sim:field-pulse-time = 20E-12 !s
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
