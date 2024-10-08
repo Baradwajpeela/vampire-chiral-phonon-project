@@ -18,10 +18,10 @@ material:file=material.mat
 #------------------------------------------
 sim:loop-time-steps=1500
 sim:time-step=1.0e-15
-sim:temperature=33
+sim:temperature=20
 sim:applied-field-strength-increment=0.0015 !T
 sim:applied-field-unit-vector=0,0.001,0.999
-sim:maximum-applied-field-strength = 0.1 !T
+sim:maximum-applied-field-strength = 1 !T
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
