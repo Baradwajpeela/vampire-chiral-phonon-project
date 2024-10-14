@@ -1,6 +1,6 @@
 # System dimensions
-dimensions:system-size-x=13 !nm
-dimensions:system-size-y=13 !nm
+dimensions:system-size-x=52 !nm
+dimensions:system-size-y=52 !nm
 dimensions:system-size-z=11.6 !nm
 #---------------------------------------------------
 # Creation attributes

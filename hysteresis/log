@@ -1,71 +1,71 @@
-07-10-2024 [14:52:19] Logfile opened
-07-10-2024 [14:52:19] Executable : vampire-serial
-07-10-2024 [14:52:19] Host name  : Cygnus:
-07-10-2024 [14:52:19] Directory  : /home/baradwaj/vampire-chiral-phonon-project/hysteresis
-07-10-2024 [14:52:19] Process ID : 649
-07-10-2024 [14:52:19] Version    : 7.0.0
-07-10-2024 [14:52:19] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
-07-10-2024 [14:52:19] Opening main input file "input".
-07-10-2024 [14:52:19]    Loading text file input on root process
-07-10-2024 [14:52:19]    File successfully loaded on root process with 1216 characters and size 0.001216 [ 130.026 ] MB/s
-07-10-2024 [14:52:19] Parsing system parameters from main input file.
-07-10-2024 [14:52:19] Opening material file "material.mat".
-07-10-2024 [14:52:19]    Loading text file material.mat on root process
-07-10-2024 [14:52:19]    File successfully loaded on root process with 716 characters and size 0.000716 [ 97.9346 ] MB/s
-07-10-2024 [14:52:19] Parsing material file for parameters.
-07-10-2024 [14:52:19] Setting periodic boundary conditions in x,y directions
-07-10-2024 [14:52:19] Reading in unit cell data from disk...
-07-10-2024 [14:52:19]    Loading text file cgt.ucf on root process
-07-10-2024 [14:52:19]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 13.357 ] MB/s
-07-10-2024 [14:52:19] Reading data completed. Processing unit cell data...
-07-10-2024 [14:52:19] 	Processing data for 6 unit cell atoms...
-07-10-2024 [14:52:19] 	Processing unit cell atoms completed
-07-10-2024 [14:52:19] 	Processing data from 114 interactions...
-07-10-2024 [14:52:19] 	Processing unit cell interactions completed
-07-10-2024 [14:52:19] 	Verifying unit cell exchange interactions...
-07-10-2024 [14:52:19] Verifying unit cell exchange interactions completed
-07-10-2024 [14:52:19] 	Number of atoms read-in: 6
-07-10-2024 [14:52:19] 	Number of bilinear interactions read-in: 114
-07-10-2024 [14:52:19] 	Number of biquadratic interactions read-in: 0
-07-10-2024 [14:52:19] 	Exchange type: 
-07-10-2024 [14:52:19] 	Calculated interaction range: 2 Unit Cells
-07-10-2024 [14:52:19] Calculating alloy properties of system
-07-10-2024 [14:52:19] Determining atomic composition:
-07-10-2024 [14:52:19] Material 1 CGT makes up 100 % of all atoms ( 13600 atoms )
-07-10-2024 [14:52:19] Memory required for neighbourlist calculation:0.1152 MB
-07-10-2024 [14:52:19] Allocating memory for supercell array in neighbourlist calculation
-07-10-2024 [14:52:19] 	Allocating memory done
-07-10-2024 [14:52:19] Populating supercell array for neighbourlist calculation...
-07-10-2024 [14:52:19] 	Populating supercell array completed
-07-10-2024 [14:52:19] Memory required for neighbour list:2.1888 MB
-07-10-2024 [14:52:19] Generating neighbour list...
-07-10-2024 [14:52:19] 	Neighbour list calculation complete
-07-10-2024 [14:52:19] Deallocating supercell array for neighbour list calculation
-07-10-2024 [14:52:19] 	Supercell array deallocated
-07-10-2024 [14:52:19] Copying system data to optimised data structures.
-07-10-2024 [14:52:19] Number of atoms generated on rank 0: 13600
-07-10-2024 [14:52:19] Memory required for copying to performance array on rank 0: 2.0672 MB RAM
-07-10-2024 [14:52:19] Identifying surface atoms using global threshold value of 0
-07-10-2024 [14:52:19] 0 surface atoms found.
-07-10-2024 [14:52:19] Memory required for creation of 1D neighbour list on rank 0: 0.2176 MB RAM
-07-10-2024 [14:52:19] Initialising data structures for exchange calculation.
-07-10-2024 [14:52:19] Unrolled exchange template requires 0.000912MB RAM
-07-10-2024 [14:52:19] Number of atoms generated: 13600
-07-10-2024 [14:52:19] Initializing vampire modules
-07-10-2024 [14:52:19] Macrocell size = 10,10,10 Angstroms
-07-10-2024 [14:52:19] Macrocells in x,y,z: 14	14	12
-07-10-2024 [14:52:19] Total number of macrocells: 2352
-07-10-2024 [14:52:19] Memory required for macrocell arrays: 0.18816 MB
-07-10-2024 [14:52:19] Number of local macrocells on rank 0: 2156
-07-10-2024 [14:52:19] Initialising data structures for anisotropy calculation for 100 materials
-07-10-2024 [14:52:19] Initialising statistics module
-07-10-2024 [14:52:19] Starting Simulation with Program Hysteresis-Loop...
-07-10-2024 [14:52:21] Initialising configuration output... done!
-07-10-2024 [14:52:21] Total coordinate data filesize: 0.6528 MB
-07-10-2024 [14:52:21] Total spin data filesize (per snapshot): 0.3264 MB
-07-10-2024 [14:52:21] Outputting atomic coordinate file to disk 0.0769349 GB/s in 0.0084851 s
-07-10-2024 [14:52:21] Outputting configuration file 00000000 to disk 0.0473054 GB/s in 0.00689985 s [ 0.00709934 s]
-07-10-2024 [17:06:21] Outputting configuration file 00000001 to disk 0.0259129 GB/s in 0.012596 s [ 0.0171434 s]
-07-10-2024 [17:37:29] Outputting configuration file 00000002 to disk 0.0355324 GB/s in 0.00918598 s [ 0.0101873 s]
-07-10-2024 [17:58:10] Simulation run time [s]: 11150.4
-07-10-2024 [17:58:10] Simulation ended gracefully.
+10-10-2024 [12:03:38] Logfile opened
+10-10-2024 [12:03:38] Executable : vampire-serial
+10-10-2024 [12:03:38] Host name  : Cygnus:
+10-10-2024 [12:03:38] Directory  : /home/baradwaj/vampire-chiral-phonon-project/hysteresis
+10-10-2024 [12:03:38] Process ID : 24150
+10-10-2024 [12:03:38] Version    : 7.0.0
+10-10-2024 [12:03:38] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
+10-10-2024 [12:03:38] Opening main input file "input".
+10-10-2024 [12:03:38]    Loading text file input on root process
+10-10-2024 [12:03:38]    File successfully loaded on root process with 1216 characters and size 0.001216 [ 3.30849 ] MB/s
+10-10-2024 [12:03:38] Parsing system parameters from main input file.
+10-10-2024 [12:03:38] Opening material file "material.mat".
+10-10-2024 [12:03:38]    Loading text file material.mat on root process
+10-10-2024 [12:03:38]    File successfully loaded on root process with 716 characters and size 0.000716 [ 1.80849 ] MB/s
+10-10-2024 [12:03:38] Parsing material file for parameters.
+10-10-2024 [12:03:38] Setting periodic boundary conditions in x,y directions
+10-10-2024 [12:03:38] Reading in unit cell data from disk...
+10-10-2024 [12:03:38]    Loading text file cgt.ucf on root process
+10-10-2024 [12:03:38]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 12.8429 ] MB/s
+10-10-2024 [12:03:38] Reading data completed. Processing unit cell data...
+10-10-2024 [12:03:38] 	Processing data for 6 unit cell atoms...
+10-10-2024 [12:03:38] 	Processing unit cell atoms completed
+10-10-2024 [12:03:38] 	Processing data from 114 interactions...
+10-10-2024 [12:03:38] 	Processing unit cell interactions completed
+10-10-2024 [12:03:38] 	Verifying unit cell exchange interactions...
+10-10-2024 [12:03:38] Verifying unit cell exchange interactions completed
+10-10-2024 [12:03:38] 	Number of atoms read-in: 6
+10-10-2024 [12:03:38] 	Number of bilinear interactions read-in: 114
+10-10-2024 [12:03:38] 	Number of biquadratic interactions read-in: 0
+10-10-2024 [12:03:38] 	Exchange type: 
+10-10-2024 [12:03:38] 	Calculated interaction range: 2 Unit Cells
+10-10-2024 [12:03:38] Calculating alloy properties of system
+10-10-2024 [12:03:38] Determining atomic composition:
+10-10-2024 [12:03:38] Material 1 CGT makes up 100 % of all atoms ( 201586 atoms )
+10-10-2024 [12:03:38] Memory required for neighbourlist calculation:1.70755 MB
+10-10-2024 [12:03:38] Allocating memory for supercell array in neighbourlist calculation
+10-10-2024 [12:03:38] 	Allocating memory done
+10-10-2024 [12:03:38] Populating supercell array for neighbourlist calculation...
+10-10-2024 [12:03:38] 	Populating supercell array completed
+10-10-2024 [12:03:38] Memory required for neighbour list:32.4435 MB
+10-10-2024 [12:03:38] Generating neighbour list...
+10-10-2024 [12:03:38] 	Neighbour list calculation complete
+10-10-2024 [12:03:38] Deallocating supercell array for neighbour list calculation
+10-10-2024 [12:03:38] 	Supercell array deallocated
+10-10-2024 [12:03:38] Copying system data to optimised data structures.
+10-10-2024 [12:03:38] Number of atoms generated on rank 0: 201586
+10-10-2024 [12:03:38] Memory required for copying to performance array on rank 0: 30.6411 MB RAM
+10-10-2024 [12:03:38] Identifying surface atoms using global threshold value of 0
+10-10-2024 [12:03:38] 0 surface atoms found.
+10-10-2024 [12:03:38] Memory required for creation of 1D neighbour list on rank 0: 3.22538 MB RAM
+10-10-2024 [12:03:38] Initialising data structures for exchange calculation.
+10-10-2024 [12:03:38] Unrolled exchange template requires 0.000912MB RAM
+10-10-2024 [12:03:38] Number of atoms generated: 201586
+10-10-2024 [12:03:38] Initializing vampire modules
+10-10-2024 [12:03:38] Macrocell size = 10,10,10 Angstroms
+10-10-2024 [12:03:38] Macrocells in x,y,z: 53	53	12
+10-10-2024 [12:03:38] Total number of macrocells: 33708
+10-10-2024 [12:03:38] Memory required for macrocell arrays: 2.69664 MB
+10-10-2024 [12:03:38] Number of local macrocells on rank 0: 30899
+10-10-2024 [12:03:38] Initialising data structures for anisotropy calculation for 100 materials
+10-10-2024 [12:03:38] Initialising statistics module
+10-10-2024 [12:03:38] Starting Simulation with Program Hysteresis-Loop...
+10-10-2024 [12:04:14] Initialising configuration output... done!
+10-10-2024 [12:04:14] Total coordinate data filesize: 9.67613 MB
+10-10-2024 [12:04:14] Total spin data filesize (per snapshot): 4.83806 MB
+10-10-2024 [12:04:14] Outputting atomic coordinate file to disk 0.06841 GB/s in 0.141443 s
+10-10-2024 [12:04:14] Outputting configuration file 00000000 to disk 0.0275452 GB/s in 0.175641 s [ 0.177785 s]
+10-10-2024 [21:47:25] Outputting configuration file 00000001 to disk 0.035716 GB/s in 0.135459 s [ 0.164154 s]
+11-10-2024 [07:21:48] Outputting configuration file 00000002 to disk 0.0384025 GB/s in 0.125983 s [ 0.144174 s]
+11-10-2024 [13:55:43] Simulation run time [s]: 93124.9
+11-10-2024 [13:55:43] Simulation ended gracefully.
