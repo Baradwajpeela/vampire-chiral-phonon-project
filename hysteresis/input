@@ -21,8 +21,8 @@ sim:time-step=1.0e-15
 sim:temperature=20
 sim:applied-field-strength-increment=1.5E-5 !T
 sim:applied-field-unit-vector=0,0.001,0.999
-sim:maximum-applied-field-strength = 0.01 !T
-sim:demagnetisation-factor = 0,0,1
+sim:maximum-applied-field-strength = 0.05 !T
+sim:demagnetisation-factor = 0.5,0.5,0
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
