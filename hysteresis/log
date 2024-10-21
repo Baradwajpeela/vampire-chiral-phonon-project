@@ -1,63 +1,65 @@
-15-10-2024 [14:16:48] Logfile opened
-15-10-2024 [14:16:48] Executable : vampire-parallel
-15-10-2024 [14:16:48] Host name  : GRBE200AHCXJDZ3:
-15-10-2024 [14:16:48] Directory  : /home/barad/vampire-chiral-phonon-project/hysteresis
-15-10-2024 [14:16:48] Process ID : 407204
-15-10-2024 [14:16:48] Version    : 6.0.0
-15-10-2024 [14:16:48] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
-15-10-2024 [14:16:48] Opening main input file "input".
-15-10-2024 [14:16:48] Parsing system parameters from main input file.
-15-10-2024 [14:16:48] Opening material file "material.mat".
-15-10-2024 [14:16:48] Parsing material file for parameters.
-15-10-2024 [14:16:48] Reading in unit cell data from disk...
-15-10-2024 [14:16:48] Reading data completed. Processing unit cell data...
-15-10-2024 [14:16:48] 	Processing data for 6 unit cell atoms...
-15-10-2024 [14:16:48] 	Processing unit cell atoms completed
-15-10-2024 [14:16:48] 	Processing data from 114 interactions...
-15-10-2024 [14:16:48] 	Processing unit cell interactions completed
-15-10-2024 [14:16:48] 	Verifying unit cell exchange interactions...
-15-10-2024 [14:16:48] Verifying unit cell exchange interactions completed
-15-10-2024 [14:16:48] 	Number of atoms read-in: 6
-15-10-2024 [14:16:48] 	Number of bilinear interactions read-in: 114
-15-10-2024 [14:16:48] 	Number of biquadratic interactions read-in: 0
-15-10-2024 [14:16:48] 	Exchange type: 
-15-10-2024 [14:16:48] 	Calculated interaction range: 2 Unit Cells
-15-10-2024 [14:16:48] System decomposed into 2 x 5 x 1 processors for parallel execution
-15-10-2024 [14:16:48] Calculating alloy properties of system
-15-10-2024 [14:16:48] Determining atomic composition:
-15-10-2024 [14:16:48] Material 1 CGT makes up 100 % of all atoms ( 51714 atoms )
-15-10-2024 [14:16:48] Copying halo atoms to other processors...
-15-10-2024 [14:16:48] 	done!
-15-10-2024 [14:16:48] Memory required for neighbourlist calculation (each cpu):0 MB
-15-10-2024 [14:16:48] Memory required for neighbourlist calculation (all cpus):0 MB
-15-10-2024 [14:16:48] Allocating memory for supercell array in neighbourlist calculation
-15-10-2024 [14:16:48] 	Allocating memory done
-15-10-2024 [14:16:48] Populating supercell array for neighbourlist calculation...
-15-10-2024 [14:16:48] 	Populating supercell array completed
-15-10-2024 [14:16:48] Memory required for neighbour list (each cpu):0 MB
-15-10-2024 [14:16:48] Memory required for neighbour list (all cpus):0 MB
-15-10-2024 [14:16:48] Generating neighbour list...
-15-10-2024 [14:16:48] 	Neighbour list calculation complete
-15-10-2024 [14:16:48] Deallocating supercell array for neighbour list calculation
-15-10-2024 [14:16:48] 	Supercell array deallocated
-15-10-2024 [14:16:48] Number of core  atoms: 2703
-15-10-2024 [14:16:48] Number of local atoms: 5344
-15-10-2024 [14:16:48] Number of total atoms: 8395
-15-10-2024 [14:16:48] Copying system data to optimised data structures.
-15-10-2024 [14:16:48] Number of atoms generated on rank 0: 5344
-15-10-2024 [14:16:48] Memory required for copying to performance array on rank 0: 1.27604 MB RAM
-15-10-2024 [14:16:48] Identifying surface atoms using global threshold value of 0
-15-10-2024 [14:16:48] 0 surface atoms found.
-15-10-2024 [14:16:48] Memory required for creation of 1D neighbour list on rank 0: 0.13432 MB RAM
-15-10-2024 [14:16:48] Initialising data structures for exchange calculation.
-15-10-2024 [14:16:48] Unrolled exchange template requires 0.000912MB RAM
-15-10-2024 [14:16:48] Macrocell size = 10 Angstroms
-15-10-2024 [14:16:48] Macrocells in x,y,z: 27	27	12
-15-10-2024 [14:16:48] Total number of macrocells: 8748
-15-10-2024 [14:16:48] Memory required for macrocell arrays: 0.69984 MB
-15-10-2024 [14:16:48] Number of local macrocells on rank 0: 924
-15-10-2024 [14:16:48] Total number of atoms (all CPUs): 51714
-15-10-2024 [14:16:48] Initialising data structures for anisotropy calculation.
-15-10-2024 [14:16:48] Initialising statistics module
-15-10-2024 [14:16:48] Time for initialisation: 0.041073
-15-10-2024 [14:16:48] Starting Simulation with Program Hysteresis-Loop...
+21-10-2024 [13:46:07] Logfile opened
+21-10-2024 [13:46:07] Executable : vampire-parallel
+21-10-2024 [13:46:07] Host name  : GRBE200AHCXJDZ3:
+21-10-2024 [13:46:07] Directory  : /home/barad/vampire-chiral-phonon-project/hysteresis
+21-10-2024 [13:46:07] Process ID : 414422
+21-10-2024 [13:46:07] Version    : 6.0.0
+21-10-2024 [13:46:07] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
+21-10-2024 [13:46:07] Opening main input file "input".
+21-10-2024 [13:46:07] Parsing system parameters from main input file.
+21-10-2024 [13:46:07] Opening material file "material.mat".
+21-10-2024 [13:46:07] Parsing material file for parameters.
+21-10-2024 [13:46:07] Reading in unit cell data from disk...
+21-10-2024 [13:46:07] Reading data completed. Processing unit cell data...
+21-10-2024 [13:46:07] 	Processing data for 6 unit cell atoms...
+21-10-2024 [13:46:07] 	Processing unit cell atoms completed
+21-10-2024 [13:46:07] 	Processing data from 114 interactions...
+21-10-2024 [13:46:07] 	Processing unit cell interactions completed
+21-10-2024 [13:46:07] 	Verifying unit cell exchange interactions...
+21-10-2024 [13:46:07] Verifying unit cell exchange interactions completed
+21-10-2024 [13:46:07] 	Number of atoms read-in: 6
+21-10-2024 [13:46:07] 	Number of bilinear interactions read-in: 114
+21-10-2024 [13:46:07] 	Number of biquadratic interactions read-in: 0
+21-10-2024 [13:46:07] 	Exchange type: 
+21-10-2024 [13:46:07] 	Calculated interaction range: 2 Unit Cells
+21-10-2024 [13:46:07] System decomposed into 2 x 5 x 1 processors for parallel execution
+21-10-2024 [13:46:07] Calculating alloy properties of system
+21-10-2024 [13:46:07] Determining atomic composition:
+21-10-2024 [13:46:07] Material 1 CGT makes up 100 % of all atoms ( 13600 atoms )
+21-10-2024 [13:46:07] Copying halo atoms to other processors...
+21-10-2024 [13:46:07] 	done!
+21-10-2024 [13:46:07] Memory required for neighbourlist calculation (each cpu):0 MB
+21-10-2024 [13:46:07] Memory required for neighbourlist calculation (all cpus):0 MB
+21-10-2024 [13:46:07] Allocating memory for supercell array in neighbourlist calculation
+21-10-2024 [13:46:07] 	Allocating memory done
+21-10-2024 [13:46:07] Populating supercell array for neighbourlist calculation...
+21-10-2024 [13:46:07] 	Populating supercell array completed
+21-10-2024 [13:46:07] Memory required for neighbour list (each cpu):0 MB
+21-10-2024 [13:46:07] Memory required for neighbour list (all cpus):0 MB
+21-10-2024 [13:46:07] Generating neighbour list...
+21-10-2024 [13:46:07] 	Neighbour list calculation complete
+21-10-2024 [13:46:07] Deallocating supercell array for neighbour list calculation
+21-10-2024 [13:46:07] 	Supercell array deallocated
+21-10-2024 [13:46:07] Number of core  atoms: 199
+21-10-2024 [13:46:07] Number of local atoms: 1360
+21-10-2024 [13:46:07] Number of total atoms: 2956
+21-10-2024 [13:46:07] Copying system data to optimised data structures.
+21-10-2024 [13:46:07] Number of atoms generated on rank 0: 1360
+21-10-2024 [13:46:07] Memory required for copying to performance array on rank 0: 0.449312 MB RAM
+21-10-2024 [13:46:07] Identifying surface atoms using global threshold value of 0
+21-10-2024 [13:46:07] 0 surface atoms found.
+21-10-2024 [13:46:07] Memory required for creation of 1D neighbour list on rank 0: 0.047296 MB RAM
+21-10-2024 [13:46:07] Initialising data structures for exchange calculation.
+21-10-2024 [13:46:07] Unrolled exchange template requires 0.000912MB RAM
+21-10-2024 [13:46:07] Macrocell size = 10 Angstroms
+21-10-2024 [13:46:07] Macrocells in x,y,z: 14	14	12
+21-10-2024 [13:46:07] Total number of macrocells: 2352
+21-10-2024 [13:46:07] Memory required for macrocell arrays: 0.18816 MB
+21-10-2024 [13:46:07] Number of local macrocells on rank 0: 231
+21-10-2024 [13:46:07] Total number of atoms (all CPUs): 13600
+21-10-2024 [13:46:07] Initialising data structures for anisotropy calculation.
+21-10-2024 [13:46:07] Initialising statistics module
+21-10-2024 [13:46:07] Time for initialisation: 0.0184031
+21-10-2024 [13:46:07] Starting Simulation with Program Hysteresis-Loop...
+21-10-2024 [14:14:00] Simulation run time [s]: 1673.56
+21-10-2024 [14:14:00] Simulation ended gracefully.
