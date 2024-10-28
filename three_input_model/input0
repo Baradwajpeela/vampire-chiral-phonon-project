@@ -28,7 +28,7 @@ sim:time-steps-increment=1
 sim:two-temperature-electron-heat-capacity = 300
 sim:two-temperature-phonon-heat-capacity = 180000 
 sim:two-temperature-electron-phonon-coupling = 1E17
-sim:demagnetisation-factor=0.999,0,0.001
+#sim:demagnetisation-factor=0.999,0,0.001
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
