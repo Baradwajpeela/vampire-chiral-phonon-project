@@ -18,9 +18,9 @@ material:file=material.mat
 #----------------------------------------------------
 #Simulation attributes : numerical attributes
 #---------------------------------------------------
-sim:preconditioning-steps=10000
+sim:preconditioning-steps=60000
 sim:equilibration-time-steps=10000
-sim:total-time-steps= 150000
+sim:total-time-steps= 210000
 sim:time-step=1E-15
 sim:time-steps-increment=1
 #--------------------------------------------------------
