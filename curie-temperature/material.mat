@@ -3,24 +3,17 @@
 #---------------------------------------------------
 material:num-materials=1
 #---------------------------------------------------
-# Material 1 Cr all constants are from Lebing et al
+# Material 1 CGT (Cr2+ only) all constants are from Lebing et al
 #---------------------------------------------------
-material[1]:material-name = Cr
+material[1]:material-name = CGT
 material[1]:damping-constant = 1
 material[1]:atomic-spin-moment = 3.87 !muB
 material[1]:uniaxial-anisotropy-constant = 5.28718509e-24
 material[1]:material-element = Cr 
 material[1]:minimum-height = 0.0
 material[1]:maximum-height = 1.0
+#material[1]:initial-spin-direction = 0,0,1
+#material[1]:use-phonon-temperature
 #----------------------------------------------------
-#Material 2 Ge Material 3 Te
-#----------------------------------------------------
-#material[2]:material-name=Ge
-#material[2]:unit-cell-category=2
-#material[2]:material-element=Ge
-#material[2]:non-magnetic = remove
-#material[3]:material-name=Te
-#material[3]:material-element=Te
-#material[3]:unit-cell-category=3
-#material[3]:non-magnetic = remove
+#Material 2 CeF3
 #----------------------------------------------------

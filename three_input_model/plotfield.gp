@@ -1,5 +1,6 @@
-reset session 
-set terminal wxt 1 size 900,800
+reset
+set terminal pdfcairo enhanced font "Arial,12" linewidth 1.5 size 5,3
+set output "plot_B+.pdf"
 set grid 
 set mouse
 set y2tics
