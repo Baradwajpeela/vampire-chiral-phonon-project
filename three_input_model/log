@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 30-11-2024 [21:25:32] Logfile opened
 30-11-2024 [21:25:32] Executable : vampire-parallel
 30-11-2024 [21:25:32] Host name  : GRBE200AHCXJDZ3:
@@ -89,3 +90,25 @@
 30-11-2024 [21:25:32] Starting Simulation with Program Temperature-Pulse...
 30-11-2024 [21:29:42] Simulation run time [s]: 250.448
 30-11-2024 [21:29:42] Simulation ended gracefully.
+=======
+30-11-2024 [21:30:33] Logfile opened
+30-11-2024 [21:30:33] Executable : vampire-parallel
+30-11-2024 [21:30:33] Host name  : Rafael:
+30-11-2024 [21:30:33] Directory  : /home/barad/vampire-chiral-phonon-project/three_input_model
+30-11-2024 [21:30:33] Process ID : 3829
+30-11-2024 [21:30:33] Version    : 7.0.0
+30-11-2024 [21:30:33] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
+30-11-2024 [21:30:33] Opening main input file "input".
+30-11-2024 [21:30:33]    Loading text file input on root process
+30-11-2024 [21:30:33]    File successfully loaded on root process with 2444 characters and size 0.002444 [ 189.546 ] MB/s
+30-11-2024 [21:30:33]    Resizing array on all processes
+30-11-2024 [21:30:33]    Broadcasting file from root process
+30-11-2024 [21:30:33] Parsing system parameters from main input file.
+30-11-2024 [21:30:33] Opening material file "material.mat".
+30-11-2024 [21:30:33]    Loading text file material.mat on root process
+30-11-2024 [21:30:33]    File successfully loaded on root process with 797 characters and size 0.000797 [ 3.31489 ] MB/s
+30-11-2024 [21:30:33]    Resizing array on all processes
+30-11-2024 [21:30:33]    Broadcasting file from root process
+30-11-2024 [21:30:33] Parsing material file for parameters.
+30-11-2024 [21:30:33] Fatal error on rank: 0: Aborting program.
+>>>>>>> dc03565332521b2a0017845295f48549c9af5789

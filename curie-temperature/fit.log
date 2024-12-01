@@ -325,7 +325,11 @@ beta            0.245  1.000
 
 
 *******************************************************************************
+<<<<<<< HEAD
+Sat Oct 12 00:08:47 2024
+=======
 Tue Nov 26 16:23:20 2024
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 
 FIT:    data read from "output" u 1:2
@@ -338,6 +342,23 @@ function used for fitting: m(x)
 fitted parameters initialized with current variable values
 
 iter      chisq       delta/lim  lambda   Tc            beta         
+<<<<<<< HEAD
+   0 9.2354700385e-02   0.00e+00  8.75e+00    7.000000e+01   4.000000e-01
+  21 7.9341143264e-03  -3.39e-01  8.75e-05    6.361853e+01   3.753647e-01
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 0.00793411
+rel. change during last iteration : -3.39481e-06
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0181821
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000330588
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Tc              = 63.6185          +/- 0.9093       (1.429%)
+beta            = 0.375365         +/- 0.01769      (4.714%)
+=======
    0 6.2295397471e-02   0.00e+00  8.75e+00    7.000000e+01   4.000000e-01
   12 2.4003920123e-02  -9.79e-01  8.75e+00    7.004526e+01   4.959444e-01
 
@@ -353,15 +374,24 @@ Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
 Tc              = 70.0453          +/- 0.1462       (0.2087%)
 beta            = 0.495944         +/- 0.01756      (3.541%)
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 correlation matrix of the fit parameters:
                 Tc     beta   
 Tc              1.000 
+<<<<<<< HEAD
+beta            0.879  1.000 
+
+
+*******************************************************************************
+Sat Oct 12 13:01:20 2024
+=======
 beta            0.245  1.000 
 
 
 *******************************************************************************
 Tue Nov 26 16:34:05 2024
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 
 FIT:    data read from "output" u 1:2
@@ -374,6 +404,23 @@ function used for fitting: m(x)
 fitted parameters initialized with current variable values
 
 iter      chisq       delta/lim  lambda   Tc            beta         
+<<<<<<< HEAD
+   0 9.2354700385e-02   0.00e+00  8.75e+00    7.000000e+01   4.000000e-01
+  21 7.9341143264e-03  -3.39e-01  8.75e-05    6.361853e+01   3.753647e-01
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 0.00793411
+rel. change during last iteration : -3.39481e-06
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0181821
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000330588
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Tc              = 63.6185          +/- 0.9093       (1.429%)
+beta            = 0.375365         +/- 0.01769      (4.714%)
+=======
    0 1.1823479324e-01   0.00e+00  8.75e+00    7.000000e+01   4.000000e-01
   13 4.8349889211e-02  -9.81e-01  8.75e+00    7.002920e+01   5.327948e-01
 
@@ -389,20 +436,33 @@ Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
 Tc              = 70.0292          +/- 0.2187       (0.3124%)
 beta            = 0.532795         +/- 0.02615      (4.907%)
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 correlation matrix of the fit parameters:
                 Tc     beta   
 Tc              1.000 
+<<<<<<< HEAD
+beta            0.879  1.000 
+
+
+*******************************************************************************
+Fri Nov  1 11:50:58 2024
+=======
 beta            0.220  1.000 
 
 
 *******************************************************************************
 Tue Nov 26 16:34:57 2024
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 
 FIT:    data read from "output" u 1:2
         format = x:z
+<<<<<<< HEAD
+        #datapoints = 16
+=======
         #datapoints = 26
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
         residuals are weighted equally (unit weight)
 
 function used for fitting: m(x)
@@ -410,6 +470,23 @@ function used for fitting: m(x)
 fitted parameters initialized with current variable values
 
 iter      chisq       delta/lim  lambda   Tc            beta         
+<<<<<<< HEAD
+   0 9.1914143256e-02   0.00e+00  1.12e+01    7.000000e+01   4.000000e-01
+  21 7.4935573557e-03  -2.18e-02  1.12e-05    6.361823e+01   3.753599e-01
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 0.00749356
+rel. change during last iteration : -2.17863e-07
+
+degrees of freedom    (FIT_NDF)                        : 14
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0231356
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000535254
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Tc              = 63.6182          +/- 1.157        (1.819%)
+beta            = 0.37536          +/- 0.02251      (5.998%)
+=======
    0 2.0997464219e-01   0.00e+00  1.32e+01    7.000000e+01   3.400000e-01
    6 4.8349589626e-02  -9.16e-01  1.32e+01    7.003140e+01   5.324436e-01
 
@@ -425,20 +502,33 @@ Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
 Tc              = 70.0314          +/- 0.2226       (0.3178%)
 beta            = 0.532444         +/- 0.02616      (4.913%)
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 correlation matrix of the fit parameters:
                 Tc     beta   
 Tc              1.000 
+<<<<<<< HEAD
+beta            0.879  1.000 
+
+
+*******************************************************************************
+Fri Nov  1 11:51:53 2024
+=======
 beta            0.225  1.000 
 
 
 *******************************************************************************
 Tue Nov 26 16:44:24 2024
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 
 FIT:    data read from "output" u 1:2
         format = x:z
+<<<<<<< HEAD
+        #datapoints = 16
+=======
         #datapoints = 24
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
         residuals are weighted equally (unit weight)
 
 function used for fitting: m(x)
@@ -446,6 +536,23 @@ function used for fitting: m(x)
 fitted parameters initialized with current variable values
 
 iter      chisq       delta/lim  lambda   Tc            beta         
+<<<<<<< HEAD
+   0 9.1914143256e-02   0.00e+00  1.12e+01    7.000000e+01   4.000000e-01
+  21 7.4935573557e-03  -2.18e-02  1.12e-05    6.361823e+01   3.753599e-01
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 0.00749356
+rel. change during last iteration : -2.17863e-07
+
+degrees of freedom    (FIT_NDF)                        : 14
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0231356
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000535254
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Tc              = 63.6182          +/- 1.157        (1.819%)
+beta            = 0.37536          +/- 0.02251      (5.998%)
+=======
    0 1.9835451761e-01   0.00e+00  1.38e+01    7.000000e+01   3.400000e-01
   22 4.2925374698e-02  -9.83e-01  1.38e+01    7.001569e+01   5.287941e-01
 
@@ -461,10 +568,14 @@ Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
 Tc              = 70.0157          +/- 0.1824       (0.2605%)
 beta            = 0.528794         +/- 0.02542      (4.807%)
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 
 correlation matrix of the fit parameters:
                 Tc     beta   
 Tc              1.000 
+<<<<<<< HEAD
+beta            0.879  1.000 
+=======
 beta            0.185  1.000 
 
 
@@ -538,3 +649,4 @@ correlation matrix of the fit parameters:
                 Tc     beta   
 Tc              1.000 
 beta            1.000  1.000 
+>>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
