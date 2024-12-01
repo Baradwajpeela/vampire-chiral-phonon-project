@@ -1,6 +1,6 @@
 # System dimensions
-dimensions:system-size-x=6.83 !nm
-dimensions:system-size-y=6.83 !nm
+dimensions:system-size-x=13.66 !nm
+dimensions:system-size-y=13.66 !nm
 dimensions:system-size-z=11.2 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -25,11 +25,12 @@ sim:equilibration-time-steps=10000
 sim:total-time-steps=300000
 sim:time-step=5E-16
 sim:time-steps-increment=1
-sim:applied-field-strength = 10 !T
+sim:applied-field-strength = 1 !T
 sim:applied-field-unit-vector = 0,1,0
 sim:two-temperature-electron-heat-capacity = 300
 sim:two-temperature-phonon-heat-capacity = 180000 
 sim:two-temperature-electron-phonon-coupling = 1E17
+sim:demagnetisation-factor=0.5,0,0.5
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
