@@ -1,8 +1,8 @@
 #--------------------------------------------------
 # System dimensions
 #--------------------------------------------------
-dimensions:system-size-x=30 !nm
-dimensions:system-size-y=30 !nm
+dimensions:system-size-x=50 !nm
+dimensions:system-size-y=50 !nm
 dimensions:system-size-z=11.6 !nm
 #---------------------------------------------------
 # Creation attributes

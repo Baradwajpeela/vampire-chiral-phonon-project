@@ -1,8 +1,8 @@
 #--------------------------------------------------
 # System dimensions
 #--------------------------------------------------
-dimensions:system-size-x=30 !nm
-dimensions:system-size-y=30 !nm
+dimensions:system-size-x=50 !nm
+dimensions:system-size-y=50 !nm
 dimensions:system-size-z=11.6 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -40,7 +40,7 @@ sim:laser-pulse-temporal-profile=two-temperature
 #sim:demagnetisation-factor = 0,0,1
 sim:applied-field-strength = 2000 !mT
 sim:applied-field-unit-vector = 0,0,1
-sim:spin-lifetime = 200E-12
+sim:spin-lifetime = 400E-12
 sim:phonon-lifetime = 0.6E-12
 #------------------------------------------
 # Program and integrator details

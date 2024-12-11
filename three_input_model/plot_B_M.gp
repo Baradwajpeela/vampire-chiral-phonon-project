@@ -1,6 +1,6 @@
 set terminal wxt
 set terminal pdfcairo enhanced font "Arial,12" linewidth 1.5 size 5,3
-set output "plot_chiral_fields.pdf"
+set output "plot_chiral_fields_50nm.pdf"
 reset
 set xlabel "time in ps"
 set y2tics
