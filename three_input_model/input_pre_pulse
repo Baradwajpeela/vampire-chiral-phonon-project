@@ -1,8 +1,8 @@
 #--------------------------------------------------
 # System dimensions
 #--------------------------------------------------
-dimensions:system-size-x=50 !nm
-dimensions:system-size-y=50 !nm
+dimensions:system-size-x=70 !nm
+dimensions:system-size-y=70 !nm
 dimensions:system-size-z=11.6 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -20,7 +20,8 @@ material:file=material_pre_pulse.mat
 #---------------------------------------------------
 sim:preconditioning-steps=2000
 sim:equilibration-time-steps=8000
-sim:total-time-steps=10000
+sim:loop-time-steps = 8000
+sim:total-time-steps=20000
 sim:time-step=1E-15
 sim:time-steps-increment=1
 #--------------------------------------------------------
