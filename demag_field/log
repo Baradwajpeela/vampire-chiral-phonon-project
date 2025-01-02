@@ -1,0 +1,116 @@
+27-12-2024 [12:41:18] Logfile opened
+27-12-2024 [12:41:18] Executable : vampire-parallel
+27-12-2024 [12:41:18] Host name  : GRBE200AHCXJDZ3:
+27-12-2024 [12:41:18] Directory  : /home/barad/vampire-chiral-phonon-project/demag_field
+27-12-2024 [12:41:18] Process ID : 3045
+27-12-2024 [12:41:18] Version    : 7.0.0
+27-12-2024 [12:41:18] Githash    : e017e798022a7c964d4c6aafc8ff97a7f63fd6bd
+27-12-2024 [12:41:18] Opening main input file "input".
+27-12-2024 [12:41:18]    Loading text file input on root process
+27-12-2024 [12:41:18]    File successfully loaded on root process with 2476 characters and size 0.002476 [ 81.0899 ] MB/s
+27-12-2024 [12:41:18]    Resizing array on all processes
+27-12-2024 [12:41:18]    Broadcasting file from root process
+27-12-2024 [12:41:18] Parsing system parameters from main input file.
+27-12-2024 [12:41:18] Opening material file "material.mat".
+27-12-2024 [12:41:18]    Loading text file material.mat on root process
+27-12-2024 [12:41:18]    File successfully loaded on root process with 797 characters and size 0.000797 [ 97.0413 ] MB/s
+27-12-2024 [12:41:18]    Resizing array on all processes
+27-12-2024 [12:41:18]    Broadcasting file from root process
+27-12-2024 [12:41:18] Parsing material file for parameters.
+27-12-2024 [12:41:18] Reading in unit cell data from disk...
+27-12-2024 [12:41:18]    Loading text file cgt.ucf on root process
+27-12-2024 [12:41:18]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 251.203 ] MB/s
+27-12-2024 [12:41:18]    Resizing array on all processes
+27-12-2024 [12:41:18]    Broadcasting file from root process
+27-12-2024 [12:41:18] Reading data completed. Processing unit cell data...
+27-12-2024 [12:41:18] 	Processing data for 6 unit cell atoms...
+27-12-2024 [12:41:18] 	Processing unit cell atoms completed
+27-12-2024 [12:41:18] 	Processing data from 114 interactions...
+27-12-2024 [12:41:18] 	Processing unit cell interactions completed
+27-12-2024 [12:41:18] 	Verifying unit cell exchange interactions...
+27-12-2024 [12:41:18] Verifying unit cell exchange interactions completed
+27-12-2024 [12:41:18] 	Number of atoms read-in: 6
+27-12-2024 [12:41:18] 	Number of bilinear interactions read-in: 114
+27-12-2024 [12:41:18] 	Number of biquadratic interactions read-in: 0
+27-12-2024 [12:41:18] 	Exchange type: 
+27-12-2024 [12:41:18] 	Calculated interaction range: 2 Unit Cells
+27-12-2024 [12:41:18] System decomposed into 2 x 5 x 1 processors for parallel execution
+27-12-2024 [12:41:18] Calculating alloy properties of system
+27-12-2024 [12:41:18] Determining atomic composition:
+27-12-2024 [12:41:18] Material 1 CGT makes up 100 % of all atoms ( 160970 atoms )
+27-12-2024 [12:41:18] Copying halo atoms to other processors...
+27-12-2024 [12:41:18]    Determining CPU ranges in x,y,z
+27-12-2024 [12:41:18]      Completed. Time taken: 9.7172e-05 s
+27-12-2024 [12:41:18]    Determining atoms needed by remote CPUs
+27-12-2024 [12:41:18]      Completed. Time taken: 0.00407834 s
+27-12-2024 [12:41:18]    Sharing number of atoms to be sent/received from each CPU
+27-12-2024 [12:41:18]      Completed. Time taken: 0.00338276 s
+27-12-2024 [12:41:18]    Sending boundary atom data to all relevant CPUs
+27-12-2024 [12:41:18]      Completed. Time taken: 0.000549885 s
+27-12-2024 [12:41:18] 	done! Total time taken: 0.00972695
+27-12-2024 [12:41:18] Memory required for neighbourlist calculation (each cpu):0 MB
+27-12-2024 [12:41:18] Memory required for neighbourlist calculation (all cpus):0 MB
+27-12-2024 [12:41:18] Allocating memory for supercell array in neighbourlist calculation
+27-12-2024 [12:41:18] 	Allocating memory done
+27-12-2024 [12:41:18] Populating supercell array for neighbourlist calculation...
+27-12-2024 [12:41:18] 	Populating supercell array completed
+27-12-2024 [12:41:18] Memory required for neighbour list (each cpu):0 MB
+27-12-2024 [12:41:18] Memory required for neighbour list (all cpus):0 MB
+27-12-2024 [12:41:18] Generating neighbour list...
+27-12-2024 [12:41:18] 	Neighbour list calculation complete
+27-12-2024 [12:41:18] Deallocating supercell array for neighbour list calculation
+27-12-2024 [12:41:18] 	Supercell array deallocated
+27-12-2024 [12:41:18] Number of core  atoms: 13227
+27-12-2024 [12:41:18] Number of local atoms: 16140
+27-12-2024 [12:41:18] Number of total atoms: 18828
+27-12-2024 [12:41:18] Initialising MPI communications...
+27-12-2024 [12:41:18] 	done! Total time taken: 0.00268969
+27-12-2024 [12:41:18] Copying system data to optimised data structures.
+27-12-2024 [12:41:18] Number of atoms generated on rank 0: 16140
+27-12-2024 [12:41:18] Memory required for copying to performance array on rank 0: 2.86186 MB RAM
+27-12-2024 [12:41:18] Identifying surface atoms using global threshold value of 0
+27-12-2024 [12:41:18] 0 surface atoms found.
+27-12-2024 [12:41:18] Memory required for creation of 1D neighbour list on rank 0: 0.301248 MB RAM
+27-12-2024 [12:41:18] Initialising data structures for exchange calculation.
+27-12-2024 [12:41:18] Unrolled exchange template requires 0.000912MB RAM
+27-12-2024 [12:41:18] Total number of atoms (all CPUs): 160970
+27-12-2024 [12:41:18] Initializing vampire modules
+27-12-2024 [12:41:18] Macrocell size = 10,10,10 Angstroms
+27-12-2024 [12:41:18] Macrocells in x,y,z: 51	51	11
+27-12-2024 [12:41:18] Total number of macrocells: 28611
+27-12-2024 [12:41:18] Memory required for macrocell arrays: 2.28888 MB
+27-12-2024 [12:41:18] Number of local macrocells on rank 0: 2500
+27-12-2024 [12:41:18] Initialising data structures for anisotropy calculation for 100 materials
+27-12-2024 [12:41:18] Initialising statistics module
+27-12-2024 [12:41:18] Flag:checkpoint_loaded_flag = 1
+27-12-2024 [12:41:18] Checkpoint file loaded at sim::time 28000.
+27-12-2024 [12:41:18] Initialising dipole field calculation using hierarchical solver
+27-12-2024 [12:41:18] 	Number of hierarchical levels: 7
+27-12-2024 [12:41:18] Transferring atomistic data for parallel dipole initialisation
+27-12-2024 [12:41:18] Transfer of atomistic data for dipole calculation complete. Time taken: 0.158777 s
+27-12-2024 [12:41:18] 	Hierarchical level 0	 range: 120	40	10	10	10	10	
+27-12-2024 [12:41:18] 	Hierarchical level 1	 range: 240	40	10	10	10	10	
+27-12-2024 [12:41:18] 	Hierarchical level 2	 range: 480	40	10	10	10	10	
+27-12-2024 [12:41:18] 	Hierarchical level 3	 range: 960	40	10	10	10	10	
+27-12-2024 [12:41:18] 	Hierarchical level 4	 range: 1920	40	10	10	10	10	
+27-12-2024 [12:41:18] 	Hierarchical level 5	 range: 3840	40	10	10	10	10	
+27-12-2024 [12:41:18] 	Hierarchical level 6	 range: 7680	40	10	10	10	10	
+27-12-2024 [12:41:24] 	Total memory for hierarchical dipole calculation (all CPUs): 18816.3 MB of RAM
+27-12-2024 [12:41:24] 	Number of local cells for hierarchical dipole calculation = 2500
+27-12-2024 [12:41:24] 	Number of total cells for hierarchical dipole calculation = 33293
+27-12-2024 [12:41:26] 	Segment times for hierarchical initialisation:
+27-12-2024 [12:41:26] 		 Segment time 1: 0.00103894 s
+27-12-2024 [12:41:26] 		 Segment time 2: 0.159605 s
+27-12-2024 [12:41:26] 		 Segment time 3: 0.00103034 s
+27-12-2024 [12:41:26] 		 Segment time 4: 0.15995 s
+27-12-2024 [12:41:26] 		 Segment time 5: 0.000240034 s
+27-12-2024 [12:41:26] 		 Segment time 6: 0.000144726 s
+27-12-2024 [12:41:26] 		 Segment time 7: 4.83587 s
+27-12-2024 [12:41:26] 		 Segment time 8: 1.08298 s
+27-12-2024 [12:41:26] 		 Segment time 9: 1.87615 s
+27-12-2024 [12:41:28] Time required for dipole update: 0.410255 s.
+27-12-2024 [12:41:28] Outputting dipole matrix 
+27-12-2024 [12:41:28] Time for initialisation: 10.1173
+27-12-2024 [12:41:28] Starting Simulation with Program Temperature-Pulse...
+27-12-2024 [12:55:47] Simulation run time [s]: 858.892
+27-12-2024 [12:55:47] Simulation ended gracefully.

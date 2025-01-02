@@ -1,12 +1,12 @@
 # System dimensions
-dimensions:system-size-x=13.66 !nm
-dimensions:system-size-y=13.66 !nm
-dimensions:system-size-z=11.6 !nm
+dimensions:system-size-x=20 !nm
+dimensions:system-size-y=20 !nm
+dimensions:system-size-z=20 !nm
 #---------------------------------------------------
 # Creation attributes
 #---------------------------------------------------
-create:periodic-boundaries-x
-create:periodic-boundaries-y
+#create:periodic-boundaries-x
+#create:periodic-boundaries-y
 #create:periodic-boundaries-z
 #---------------------------------------------------
 # Material files
@@ -16,19 +16,21 @@ material:file=material.mat
 #------------------------------------------
 # Simulation attributes:
 #------------------------------------------
-sim:loop-time-steps=5000
-sim:time-step=1.0e-15
+sim:loop-time-steps=10000
+sim:equilibration-time-steps=5000
+#sim:time-step=1.0e-11
 sim:temperature=33
-#sim:applied-field-strength-increment= 0.001 !mT
-sim:applied-field-unit-vector=0,0.00,1
-sim:maximum-applied-field-strength = 0.01 !mT
+sim:applied-field-strength-increment= 0.1 !T
+sim:applied-field-unit-vector=0,0.1,0.9
+sim:maximum-applied-field-strength = 1 !T
 sim:demagnetisation-factor = 0,0,1
-#dipole:solver=tensor
+#dipole:solver=macrocell
+
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
 sim:program=hysteresis-loop
-sim:integrator=llg-heun
+sim:integrator=monte-carlo
 #------------------------------------------
 # data output
 #------------------------------------------
