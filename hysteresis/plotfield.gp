@@ -1,5 +1,5 @@
-set terminal pdfcairo
-set output "demag_1.pdf"
+set terminal wxt
+#set output "demag_1.pdf"
 set grid 
 set mouse
 #set yrange [-1.01:1.01]

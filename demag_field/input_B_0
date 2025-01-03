@@ -1,9 +1,9 @@
 #--------------------------------------------------
 # System dimensions
 #--------------------------------------------------
-dimensions:system-size-x=50 !nm
-dimensions:system-size-y=50 !nm
-dimensions:system-size-z=10 !nm
+dimensions:system-size-x=28 !nm
+dimensions:system-size-y=28 !nm
+dimensions:system-size-z=5 !nm
 #---------------------------------------------------
 # Creation attributes
 #---------------------------------------------------
@@ -20,7 +20,7 @@ material:file=material.mat
 #---------------------------------------------------
 #sim:preconditioning-steps=20000
 #sim:equilibration-time-steps=15000
-sim:total-time-steps=200000
+sim:total-time-steps=120000
 sim:time-step=1E-15
 sim:time-steps-increment=1
 #--------------------------------------------------------
@@ -42,7 +42,7 @@ sim:two-temperature-electron-phonon-coupling = 3E17
 sim:applied-field-strength = 0 !mT
 sim:applied-field-unit-vector = 0,0,1
 sim:spin-lifetime = 80E-12
-sim:phonon-lifetime = 0.6E-12
+sim:phonon-lifetime = 2E-12
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
@@ -52,7 +52,7 @@ sim:load-checkpoint=continue
 #-------------------------------
 #Dipole solver attributes 
 #----------------------------------
-#cells:macro-cell-size = 10.1 !A
+cells:macro-cell-size = 10.1 !A
 dipole:solver=hierarchical
 dipole:field-update-rate =1000
 dipole:cutoff-radius = 4

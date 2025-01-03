@@ -38,7 +38,7 @@ sim:laser-pulse-temporal-profile=two-temperature
 #---------------------------------------------------
 #sim:demagnetisation-factor=0.33,0.33,0.34
 #sim:demagnetisation-factor = 0,0,1
-sim:applied-field-strength = 5000 !mT
+sim:applied-field-strength = 500 !mT
 sim:applied-field-unit-vector = 0,0,1
 sim:spin-lifetime = 400E-12
 sim:phonon-lifetime = 0.6E-12

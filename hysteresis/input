@@ -1,7 +1,7 @@
 # System dimensions
-dimensions:system-size-x=20 !nm
-dimensions:system-size-y=20 !nm
-dimensions:system-size-z=20 !nm
+dimensions:system-size-x=7 !nm
+dimensions:system-size-y=7 !nm
+dimensions:system-size-z=7 !nm
 #---------------------------------------------------
 # Creation attributes
 #---------------------------------------------------
@@ -23,8 +23,12 @@ sim:temperature=33
 sim:applied-field-strength-increment= 0.1 !T
 sim:applied-field-unit-vector=0,0.1,0.9
 sim:maximum-applied-field-strength = 1 !T
-sim:demagnetisation-factor = 0,0,1
-#dipole:solver=macrocell
+#sim:demagnetisation-factor = 0,0,1
+dipole:solver=hierarchical
+cells:macro-cell-size = 10.1 !A
+dipole:solver=hierarchical
+dipole:field-update-rate =1000
+dipole:cutoff-radius = 2
 
 #------------------------------------------
 # Program and integrator details

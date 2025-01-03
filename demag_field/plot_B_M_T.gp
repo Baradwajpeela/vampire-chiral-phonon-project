@@ -1,6 +1,6 @@
 reset session 
 set terminal pdfcairo enhanced font "Arial,12" linewidth 1.5 size 5,3
-set output "dipole_50_10nm_radius4.pdf" 
+set output "dipole_7_5nm.pdf" 
 set xlabel "time in ps"
 set y2tics
 set ytics nomirror
