@@ -1,0 +1,70 @@
+#--------------------------------------------------
+# System dimensions
+#--------------------------------------------------
+dimensions:system-size-x=10 !nm
+dimensions:system-size-y=10 !nm
+dimensions:system-size-z=10 !nm
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+#create:periodic-boundaries-x
+#create:periodic-boundaries-y
+#create:periodic-boundaries-z
+#---------------------------------------------------
+# Material files
+#---------------------------------------------------
+material:unit-cell-file=cgt.ucf
+material:file=material.mat
+#----------------------------------------------------
+#Simulation attributes : numerical attributes
+#---------------------------------------------------
+#sim:preconditioning-steps=20000
+#sim:equilibration-time-steps=15000
+sim:total-time-steps=120000
+sim:time-step=1E-15
+sim:time-steps-increment=1
+sim:loop-time-steps = 5000
+#--------------------------------------------------------
+# Simulation attributes:Laser pulse temperature profile 
+#--------------------------------------------------------
+sim:equilibration-temperature=10
+sim:laser-pulse-power= 0.44
+sim:laser-pulse-time = 2000 !fs
+sim:laser-pulse-temporal-profile=two-temperature
+sim:two-temperature-electron-heat-capacity = 300
+sim:two-temperature-phonon-heat-capacity = 180000 
+sim:two-temperature-electron-phonon-coupling = 3E17
+#----------------------------------------------------
+# Magnetic field attributes
+#---------------------------------------------------
+sim:demagnetisation-factor=0.33,0.33,0.34
+#sim:demagnetisation-factor = 0.5,0.5,0
+#sim:demagnetisation-factor = 0,0,1
+sim:applied-field-strength = 0 !mT
+sim:applied-field-unit-vector = 0,0,1
+sim:spin-lifetime = 80E-12
+sim:phonon-lifetime = 2E-12
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program=laser-pulse
+sim:integrator=llg-heun
+sim:load-checkpoint=continue
+#-------------------------------
+#Dipole solver attributes 
+#----------------------------------
+#cells:macro-cell-size = 10.1 !A
+#dipole:solver=hierarchical
+#dipole:field-update-rate =1000
+#dipole:cutoff-radius = 4
+#------------------------------------------
+# data output
+#------------------------------------------
+#output:column-headers
+output:real-time
+output:electron-temperature
+output:phonon-temperature
+output:applied-field-strength
+output:magnetisation-length
+output:material-magnetisation
+#config:atoms
