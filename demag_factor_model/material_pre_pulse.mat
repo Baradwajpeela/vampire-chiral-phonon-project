@@ -6,7 +6,7 @@ material:num-materials=1
 # Material 1 CGT (Cr2+ only) all constants are from Lebing et al
 #---------------------------------------------------
 material[1]:material-name = CGT
-material[1]:damping-constant = 0.5
+material[1]:damping-constant = 0.01
 material[1]:atomic-spin-moment = 3.87 !muB
 material[1]:uniaxial-anisotropy-constant = 5.28718509e-24
 material[1]:material-element = Cr 

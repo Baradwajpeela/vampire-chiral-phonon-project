@@ -1,8 +1,8 @@
 #--------------------------------------------------
 # System dimensions
 #--------------------------------------------------
-dimensions:system-size-x=10 !nm
-dimensions:system-size-y=10 !nm
+dimensions:system-size-x=20 !nm
+dimensions:system-size-y=20 !nm
 dimensions:system-size-z=10 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -10,6 +10,7 @@ dimensions:system-size-z=10 !nm
 #create:periodic-boundaries-x
 #create:periodic-boundaries-y
 #create:periodic-boundaries-z
+#create:voronoi-film
 #---------------------------------------------------
 # Material files
 #---------------------------------------------------
@@ -37,9 +38,9 @@ sim:two-temperature-electron-phonon-coupling = 3E17
 #----------------------------------------------------
 # Magnetic field attributes
 #---------------------------------------------------
-sim:demagnetisation-factor=0.33,0.33,0.34
+#sim:demagnetisation-factor=0.33,0.33,0.34
 #sim:demagnetisation-factor = 0.5,0.5,0
-#sim:demagnetisation-factor = 0,0,1
+sim:demagnetisation-factor = 0,0,1
 sim:applied-field-strength = 20 !mT
 sim:applied-field-unit-vector = 0,0,1
 sim:spin-lifetime = 80E-12
@@ -67,4 +68,4 @@ output:phonon-temperature
 output:applied-field-strength
 output:magnetisation-length
 output:material-magnetisation
-#config:atoms
+config:atoms
