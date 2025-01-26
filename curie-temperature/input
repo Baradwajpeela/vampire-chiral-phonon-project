@@ -1,11 +1,6 @@
 # System dimensions
-<<<<<<< HEAD
 dimensions:system-size-x=26 !nm
 dimensions:system-size-y=26 !nm
-=======
-dimensions:system-size-x=10 !nm
-dimensions:system-size-y=10 !nm
->>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 dimensions:system-size-z=11.2 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -22,15 +17,12 @@ material:file=material.mat
 # Simulation attributes
 #---------------------------------------------------
 #sim:preconditioning-steps=10000
-<<<<<<< HEAD
 sim:equilibration-time-steps=10000
-=======
 sim:equilibration-time-steps=1000
->>>>>>> 91b39641e676d8e698b4f2483b44d43fb4214d59
 sim:minimum-temperature=0
 sim:maximum-temperature=100
 sim:temperature-increment=1
-sim:demagnetisation-factor = 0,0.5,0.5
+#sim:demagnetisation-factor = 0,0.5,0.5
 #------------------------------------------
 # Program and integrator details
 #------------------------------------------
@@ -45,3 +37,9 @@ output:magnetisation-length
 #config:atoms
 screen:temperature
 screen:magnetisation
+config:atoms-minimum-x = 0
+config:atoms-maximum-x = 0.025
+config:atoms-minimum-y = 0
+config:atoms-maximum-y = 0.025
+config:atoms-minimum-z = 0
+config:atoms-maximum-z = 0.18

@@ -1,7 +1,7 @@
 # System dimensions
-dimensions:system-size-x=28 !nm
-dimensions:system-size-y=28 !nm
-dimensions:system-size-z=7 !nm
+dimensions:system-size-x=30 !nm
+dimensions:system-size-y=30 !nm
+dimensions:system-size-z=11 !nm
 #---------------------------------------------------
 # Creation attributes
 #---------------------------------------------------
@@ -16,13 +16,13 @@ material:file=material.mat
 #------------------------------------------
 # Simulation attributes:
 #------------------------------------------
-sim:loop-time-steps=3000
-sim:equilibration-time-steps=5000
+sim:loop-time-steps=1000
+sim:equilibration-time-steps=1000
 #sim:time-step=1.0e-11
-sim:temperature=33
-sim:applied-field-strength-increment= 14.667 !mT
-sim:applied-field-unit-vector=1,1,1
-sim:maximum-applied-field-strength = 500 !mT
+sim:temperature=10
+sim:applied-field-strength-increment= 100 !mT
+sim:applied-field-unit-vector=0,0,1
+sim:maximum-applied-field-strength = 1 ! T
 sim:demagnetisation-factor = 0,0,1
 #cells:macro-cell-size = 3.5 !A
 #dipole:solver=hierarchical

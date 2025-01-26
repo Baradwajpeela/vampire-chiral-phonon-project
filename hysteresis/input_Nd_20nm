@@ -1,0 +1,45 @@
+# System dimensions
+dimensions:system-size-x=20 !nm
+dimensions:system-size-y=20 !nm
+dimensions:system-size-z=11 !nm
+#---------------------------------------------------
+# Creation attributes
+#---------------------------------------------------
+#create:periodic-boundaries-x
+#create:periodic-boundaries-y
+#create:periodic-boundaries-z
+#---------------------------------------------------
+# Material files
+#--------------------------------------------------
+material:unit-cell-file=cgt.ucf
+material:file=material.mat
+#------------------------------------------
+# Simulation attributes:
+#------------------------------------------
+sim:loop-time-steps=100000
+sim:equilibration-time-steps=10000
+#sim:time-step=1.0e-11
+sim:temperature=33
+sim:applied-field-strength-increment= 150 !mT
+sim:applied-field-unit-vector=0,0,1
+sim:maximum-applied-field-strength = 0.9 ! T
+#sim:demagnetisation-factor = 0,0,1
+#cells:macro-cell-size = 3.5 !A
+#dipole:solver=hierarchical
+#dipole:field-update-rate =1000
+#dipole:cutoff-radius = 2
+
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program=hysteresis-loop
+sim:integrator=monte-carlo
+#------------------------------------------
+# data output
+#------------------------------------------
+output:column-headers
+#output:real-time
+output:applied-field-strength
+output:material-magnetisation
+#screen:applied-field-strength
+#screen:material-magnetisation

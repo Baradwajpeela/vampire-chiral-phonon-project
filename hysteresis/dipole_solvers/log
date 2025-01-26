@@ -1,0 +1,103 @@
+26-01-2025 [00:32:07] Logfile opened
+26-01-2025 [00:32:07] Executable : vampire-parallel
+26-01-2025 [00:32:07] Host name  : GRBE200AHCXJDZ3:
+26-01-2025 [00:32:07] Directory  : /home/barad/vampire-chiral-phonon-project/hysteresis/dipole_solvers
+26-01-2025 [00:32:07] Process ID : 8646
+26-01-2025 [00:32:07] Version    : 7.0.0
+26-01-2025 [00:32:07] Githash    : e017e798022a7c964d4c6aafc8ff97a7f63fd6bd
+26-01-2025 [00:32:07] Opening main input file "input".
+26-01-2025 [00:32:07]    Loading text file input on root process
+26-01-2025 [00:32:07]    File successfully loaded on root process with 1442 characters and size 0.001442 [ 95.1878 ] MB/s
+26-01-2025 [00:32:07]    Resizing array on all processes
+26-01-2025 [00:32:07]    Broadcasting file from root process
+26-01-2025 [00:32:07] Parsing system parameters from main input file.
+26-01-2025 [00:32:07] Opening material file "material.mat".
+26-01-2025 [00:32:07]    Loading text file material.mat on root process
+26-01-2025 [00:32:07]    File successfully loaded on root process with 806 characters and size 0.000806 [ 4.06978 ] MB/s
+26-01-2025 [00:32:07]    Resizing array on all processes
+26-01-2025 [00:32:07]    Broadcasting file from root process
+26-01-2025 [00:32:07] Parsing material file for parameters.
+26-01-2025 [00:32:07] Reading in unit cell data from disk...
+26-01-2025 [00:32:07]    Loading text file cgt.ucf on root process
+26-01-2025 [00:32:07]    File successfully loaded on root process with 3393 characters and size 0.003393 [ 17.2141 ] MB/s
+26-01-2025 [00:32:07]    Resizing array on all processes
+26-01-2025 [00:32:07]    Broadcasting file from root process
+26-01-2025 [00:32:07] Reading data completed. Processing unit cell data...
+26-01-2025 [00:32:07] 	Processing data for 6 unit cell atoms...
+26-01-2025 [00:32:07] 	Processing unit cell atoms completed
+26-01-2025 [00:32:07] 	Processing data from 114 interactions...
+26-01-2025 [00:32:07] 	Processing unit cell interactions completed
+26-01-2025 [00:32:07] 	Verifying unit cell exchange interactions...
+26-01-2025 [00:32:07] Verifying unit cell exchange interactions completed
+26-01-2025 [00:32:07] 	Number of atoms read-in: 6
+26-01-2025 [00:32:07] 	Number of bilinear interactions read-in: 114
+26-01-2025 [00:32:07] 	Number of biquadratic interactions read-in: 0
+26-01-2025 [00:32:07] 	Exchange type: 
+26-01-2025 [00:32:07] 	Calculated interaction range: 2 Unit Cells
+26-01-2025 [00:32:07] System decomposed into 2 x 5 x 1 processors for parallel execution
+26-01-2025 [00:32:07] Calculating alloy properties of system
+26-01-2025 [00:32:07] Determining atomic composition:
+26-01-2025 [00:32:07] Material 1 CGT makes up 100 % of all atoms ( 65824 atoms )
+26-01-2025 [00:32:07] Copying halo atoms to other processors...
+26-01-2025 [00:32:07]    Determining CPU ranges in x,y,z
+26-01-2025 [00:32:07]      Completed. Time taken: 6.45e-05 s
+26-01-2025 [00:32:07]    Determining atoms needed by remote CPUs
+26-01-2025 [00:32:07]      Completed. Time taken: 0.0016446 s
+26-01-2025 [00:32:07]    Sharing number of atoms to be sent/received from each CPU
+26-01-2025 [00:32:07]      Completed. Time taken: 0.00164141 s
+26-01-2025 [00:32:07]    Sending boundary atom data to all relevant CPUs
+26-01-2025 [00:32:07]      Completed. Time taken: 0.000353301 s
+26-01-2025 [00:32:07] 	done! Total time taken: 0.00460796
+26-01-2025 [00:32:07] Memory required for neighbourlist calculation (each cpu):0 MB
+26-01-2025 [00:32:07] Memory required for neighbourlist calculation (all cpus):0 MB
+26-01-2025 [00:32:07] Allocating memory for supercell array in neighbourlist calculation
+26-01-2025 [00:32:07] 	Allocating memory done
+26-01-2025 [00:32:07] Populating supercell array for neighbourlist calculation...
+26-01-2025 [00:32:07] 	Populating supercell array completed
+26-01-2025 [00:32:07] Memory required for neighbour list (each cpu):0 MB
+26-01-2025 [00:32:07] Memory required for neighbour list (all cpus):0 MB
+26-01-2025 [00:32:07] Generating neighbour list...
+26-01-2025 [00:32:07] 	Neighbour list calculation complete
+26-01-2025 [00:32:07] Deallocating supercell array for neighbour list calculation
+26-01-2025 [00:32:07] 	Supercell array deallocated
+26-01-2025 [00:32:07] Number of core  atoms: 5191
+26-01-2025 [00:32:07] Number of local atoms: 6732
+26-01-2025 [00:32:07] Number of total atoms: 8383
+26-01-2025 [00:32:07] Initialising MPI communications...
+26-01-2025 [00:32:07] 	done! Total time taken: 0.00491363
+26-01-2025 [00:32:07] Copying system data to optimised data structures.
+26-01-2025 [00:32:07] Number of atoms generated on rank 0: 6732
+26-01-2025 [00:32:07] Memory required for copying to performance array on rank 0: 1.27422 MB RAM
+26-01-2025 [00:32:07] Identifying surface atoms using global threshold value of 0
+26-01-2025 [00:32:07] 0 surface atoms found.
+26-01-2025 [00:32:07] Memory required for creation of 1D neighbour list on rank 0: 0.134128 MB RAM
+26-01-2025 [00:32:07] Initialising data structures for exchange calculation.
+26-01-2025 [00:32:07] Unrolled exchange template requires 0.000912MB RAM
+26-01-2025 [00:32:07] Total number of atoms (all CPUs): 65824
+26-01-2025 [00:32:07] Initializing vampire modules
+26-01-2025 [00:32:07] Macrocell size = 20,20,20 Angstroms
+26-01-2025 [00:32:07] Macrocells in x,y,z: 16	16	6
+26-01-2025 [00:32:07] Total number of macrocells: 1536
+26-01-2025 [00:32:07] Memory required for macrocell arrays: 0.12288 MB
+26-01-2025 [00:32:07] Number of local macrocells on rank 0: 144
+26-01-2025 [00:32:07] Initialising data structures for anisotropy calculation for 100 materials
+26-01-2025 [00:32:07] Initialising statistics module
+26-01-2025 [00:32:07] Initialising dipole field calculation using tensor solver
+26-01-2025 [00:32:07] 	Dipole field calculation requires 10.6168 MB of RAM
+26-01-2025 [00:32:07] 	Total memory for dipole calculation (all CPUs): 113.246 MB of RAM
+26-01-2025 [00:32:07] 	Number of local cells for dipole calculation = 144
+26-01-2025 [00:32:07] 	Number of total cells for dipole calculation = 1536
+26-01-2025 [00:32:07] Transferring atomistic data for parallel dipole initialisation
+26-01-2025 [00:32:07] Transfer of atomistic data for dipole calculation complete. Time taken: 0.00277827 s
+26-01-2025 [00:32:07] Precalculating rij matrix for dipole calculation using tensor solver... 
+26-01-2025 [00:32:07] Precalculation of rij matrix for dipole calculation complete. Time taken: 0.122886 s
+26-01-2025 [00:32:07] Time required for dipole update: 0.00383425 s.
+26-01-2025 [00:32:07] Outputting dipole matrix 
+26-01-2025 [00:32:07] Time for initialisation: 0.171273
+26-01-2025 [00:32:07] Starting Simulation with Program Hysteresis-Loop...
+26-01-2025 [08:28:30] Simulation run time [s]: 28583.2
+26-01-2025 [08:28:30] Monte Carlo statistics:
+26-01-2025 [08:28:30] 	Total moves: 6.77987e+11
+26-01-2025 [08:28:30] 	49.9947% Accepted
+26-01-2025 [08:28:30] 	50.0053% Rejected
+26-01-2025 [08:28:30] Simulation ended gracefully.
