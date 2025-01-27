@@ -1,8 +1,8 @@
 #--------------------------------------------------
 # System dimensions
 #--------------------------------------------------
-dimensions:system-size-x=28 !nm
-dimensions:system-size-y=28 !nm
+dimensions:system-size-x=30 !nm
+dimensions:system-size-y=30 !nm
 dimensions:system-size-z=11 !nm
 #---------------------------------------------------
 # Creation attributes
@@ -22,7 +22,7 @@ sim:preconditioning-steps=2000
 sim:equilibration-time-steps=8000
 sim:loop-time-steps = 8000
 sim:total-time-steps=10000
-sim:time-step=1E-15
+sim:time-step=0.5E-15
 sim:time-steps-increment=1
 #--------------------------------------------------------
 # Simulation attributes:Laser pulse temperature profile 
